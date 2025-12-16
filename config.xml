@@ -124,18 +124,15 @@
       <subscription/>
       <reboot>0</reboot>
     </firmware>
-    <dnsserver>8.8.8.8</dnsserver>
-    <dnsserver>1.1.1.1</dnsserver>
-    <dnsserver>1.1.1.1</dnsserver>
-    <dnsserver>1.1.1.1</dnsserver>
+    <dnsserver/>
     <language>en_US</language>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
     <sudo_allow_wheel>2</sudo_allow_wheel>
     <prefer_ipv4>1</prefer_ipv4>
-    <dns1gw>wan2_DHCP</dns1gw>
-    <dns2gw>WAN_DHCP</dns2gw>
-    <dns3gw>NORDVPN_US8561_VPNV4</dns3gw>
+    <dns1gw>none</dns1gw>
+    <dns2gw>none</dns2gw>
+    <dns3gw>none</dns3gw>
     <dns4gw>none</dns4gw>
     <dns5gw>none</dns5gw>
     <dns6gw>none</dns6gw>
@@ -823,9 +820,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.183</username>
-    <description>/api/unbound/settings/toggleDot/99c22056-6cc9-469b-84fe-658d22a147ef made changes</description>
-    <time>1765899064.44</time>
+    <username>root@192.168.0.124</username>
+    <description>/system_general.php made changes</description>
+    <time>1765899303.70</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
