@@ -825,7 +825,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.157</username>
     <description>/api/unbound/settings/addDot/ made changes</description>
-    <time>1765863667.63</time>
+    <time>1765863818.76</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -1333,7 +1333,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1765863667.63" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1765863818.76" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1451,6 +1451,17 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
           <forward_tcp_upstream>0</forward_tcp_upstream>
           <forward_first>1</forward_first>
           <description>dns over tls 8.8.8.8</description>
+        </dot>
+        <dot uuid="2127eb63-1feb-4d05-93a5-bc87d61baefc">
+          <enabled>1</enabled>
+          <type>dot</type>
+          <domain/>
+          <server>9.9.9.9</server>
+          <port>853</port>
+          <verify/>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>1</forward_first>
+          <description>dns over tls 9.9.9.9</description>
         </dot>
       </dots>
       <hosts/>
