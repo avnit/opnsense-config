@@ -824,8 +824,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.157</username>
-    <description>/api/unbound/settings/setDot/1917f905-a27a-4d50-aa68-2cab960b0d5b made changes</description>
-    <time>1765867175.25</time>
+    <description>/api/adguardhome/general/set made changes</description>
+    <time>1765867209.57</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2610,8 +2610,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <blocklist/>
     </MDNSRepeater>
     <adguardhome>
-      <general version="0.0.1" persisted_at="1765866801.75" description="Adguardhome general configuration">
-        <enabled>1</enabled>
+      <general version="0.0.1" persisted_at="1765867209.57" description="Adguardhome general configuration">
+        <enabled>0</enabled>
         <primarydns>0</primarydns>
       </general>
     </adguardhome>
