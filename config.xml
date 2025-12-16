@@ -17,7 +17,7 @@
     <optimization>normal</optimization>
     <hostname>OPNsense</hostname>
     <domain>asbblog.com</domain>
-    <dnsallowoverride>1</dnsallowoverride>
+    <dnsallowoverride>0</dnsallowoverride>
     <dnsallowoverride_exclude/>
     <group uuid="2b83c3cb-75ed-479b-bc70-2c9ea1c32b65">
       <gid>1999</gid>
@@ -824,8 +824,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.157</username>
-    <description>/api/unbound/settings/addDot/ made changes</description>
-    <time>1765863818.76</time>
+    <description>/system_general.php made changes</description>
+    <time>1765863993.31</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
