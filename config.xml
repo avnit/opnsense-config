@@ -823,9 +823,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.157</username>
-    <description>/system_general.php made changes</description>
-    <time>1765863993.31</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1765864497.03</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2609,6 +2609,12 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <interfaces>lan</interfaces>
       <blocklist/>
     </MDNSRepeater>
+    <adguardhome>
+      <general version="0.0.1" persisted_at="1765864497.03" description="Adguardhome general configuration">
+        <enabled>0</enabled>
+        <primarydns>0</primarydns>
+      </general>
+    </adguardhome>
   </OPNsense>
   <vlans version="1.0.0" persisted_at="1764539975.74">
     <vlan/>
