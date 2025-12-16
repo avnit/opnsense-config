@@ -821,8 +821,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.124</username>
-    <description>/system_general.php made changes</description>
-    <time>1765899303.70</time>
+    <description>/api/unbound/settings/setDot/99c22056-6cc9-469b-84fe-658d22a147ef made changes</description>
+    <time>1765899343.01</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -1330,7 +1330,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1765899064.43" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1765899343.01" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1444,7 +1444,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
           <domain/>
           <server>8.8.8.8</server>
           <port>853</port>
-          <verify/>
+          <verify>dns.google</verify>
           <forward_tcp_upstream>0</forward_tcp_upstream>
           <forward_first>1</forward_first>
           <description>dns over tls 8.8.8.8</description>
