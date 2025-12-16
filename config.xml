@@ -574,6 +574,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <time>1765256733.48</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule uuid="caa6ee8b-dfdb-4f52-a51c-97bb16f6f55b">
       <type>pass</type>
@@ -820,9 +821,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.124</username>
-    <description>/api/unbound/settings/toggleDot/99c22056-6cc9-469b-84fe-658d22a147ef made changes</description>
-    <time>1765899346.38</time>
+    <username>root@192.168.0.183</username>
+    <description>/firewall_rules.php made changes</description>
+    <time>1765901651.31</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
