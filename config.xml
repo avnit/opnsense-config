@@ -791,9 +791,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.157</username>
-    <description>/interfaces.php made changes</description>
-    <time>1765950017.95</time>
+    <username>root@192.168.0.183</username>
+    <description>/api/unbound/settings/addDot/ made changes</description>
+    <time>1765959160.20</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -1301,7 +1301,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1765899346.38" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1765959160.20" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1430,6 +1430,17 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
           <forward_tcp_upstream>0</forward_tcp_upstream>
           <forward_first>1</forward_first>
           <description>dns over tls 9.9.9.9</description>
+        </dot>
+        <dot uuid="7bbaebb0-91c9-4cb2-a934-4fd4429f9c49">
+          <enabled>1</enabled>
+          <type>dot</type>
+          <domain/>
+          <server>2606:4700:4700::1111</server>
+          <port>853</port>
+          <verify>cloudflare-dns.com</verify>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>1</forward_first>
+          <description>dns over tls ipv6</description>
         </dot>
       </dots>
       <hosts/>
