@@ -429,127 +429,165 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         </created>
       </rule>
     </outbound>
-    <rule>
-      <protocol>tcp</protocol>
+    <rule uuid="fa80b843-ff76-445b-abbe-5285036b58a5">
+      <sequence>100</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_6936f2b88de425.45962592</associated-rule-id>
-      <log>1</log>
-      <target>privateRanges</target>
-      <local-port>32400</local-port>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>wanip</network>
         <port>32400</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>root@192.168.0.181</username>
-        <time>1765253745.84</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>privateRanges</target>
+      <local-port>32400</local-port>
+      <poolopts/>
+      <log>1</log>
+      <category/>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass>0</pass>
+      <associated-rule-id/>
       <created>
         <username>root@192.168.0.151</username>
         <time>1765208760.58</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>root@192.168.0.181</username>
+        <time>1765253745.84</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
+    <rule uuid="9ddc795c-4a67-4353-a0a3-47a82bb3e52b">
+      <sequence>200</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_6936f69b4fd1f6.81801563</associated-rule-id>
-      <target>privateRanges</target>
-      <local-port>80</local-port>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>lanip</network>
         <port>80</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>root@192.168.0.181</username>
-        <time>1765253757.59</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>privateRanges</target>
+      <local-port>80</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass>0</pass>
+      <associated-rule-id/>
       <created>
         <username>root@192.168.0.151</username>
         <time>1765209755.33</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>root@192.168.0.181</username>
+        <time>1765253757.59</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
+    <rule uuid="ee82b2dd-6966-443c-9c41-d0cfb3764908">
+      <sequence>300</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_6936f6c34c1763.97510157</associated-rule-id>
-      <target>privateRanges</target>
-      <local-port>443</local-port>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>lanip</network>
         <port>443</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>root@192.168.0.181</username>
-        <time>1765253767.78</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>privateRanges</target>
+      <local-port>443</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass>0</pass>
+      <associated-rule-id/>
       <created>
         <username>root@192.168.0.151</username>
         <time>1765209795.31</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>root@192.168.0.181</username>
+        <time>1765253767.78</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
+    <rule uuid="9b99ab58-5e51-4803-9e22-ab5610eddf24">
+      <sequence>400</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_693b0ec5d13ee5.69395452</associated-rule-id>
-      <log>1</log>
-      <target>192.168.0.5</target>
-      <local-port>21</local-port>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>wanip</network>
         <port>21</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>root@192.168.0.159</username>
-        <time>1765478587.09</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>192.168.0.5</target>
+      <local-port>21</local-port>
+      <poolopts/>
+      <log>1</log>
+      <category/>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass>0</pass>
+      <associated-rule-id/>
       <created>
         <username>root@192.168.0.159</username>
         <time>1765478085.86</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>root@192.168.0.159</username>
+        <time>1765478587.09</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
   </nat>
   <filter>
@@ -825,9 +863,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.44</username>
-    <description>/system_advanced_firewall.php made changes</description>
-    <time>1765959864.13</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1765960292.01</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2672,6 +2710,15 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <primarydns>0</primarydns>
       </general>
     </adguardhome>
+    <Hostwatch version="0.0.1" persisted_at="1765960291.67" description="Host discovery">
+      <general>
+        <enabled>1</enabled>
+        <promisc>1</promisc>
+        <verbose>0</verbose>
+        <skip_nets/>
+        <interface/>
+      </general>
+    </Hostwatch>
   </OPNsense>
   <vlans version="1.0.0" persisted_at="1764539975.74">
     <vlan/>
