@@ -793,7 +793,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.183</username>
     <description>/api/unbound/settings/addDot/ made changes</description>
-    <time>1765959160.20</time>
+    <time>1765959207.21</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -1301,7 +1301,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1765959160.20" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1765959207.21" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1441,6 +1441,17 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
           <forward_tcp_upstream>0</forward_tcp_upstream>
           <forward_first>1</forward_first>
           <description>dns over tls ipv6</description>
+        </dot>
+        <dot uuid="b029eb1f-2577-4dc4-afc9-649ac1182ecc">
+          <enabled>1</enabled>
+          <type>dot</type>
+          <domain/>
+          <server>2606:4700:4700::1001</server>
+          <port>853</port>
+          <verify>cloudflare-dns.com</verify>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>1</forward_first>
+          <description>dns over tls ipv6 passive</description>
         </dot>
       </dots>
       <hosts/>
