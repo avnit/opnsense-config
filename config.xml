@@ -864,8 +864,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.183</username>
-    <description>/api/unbound/settings/setDot/db7a07b1-65e6-4b99-97a3-4a74823a5257 made changes</description>
-    <time>1765980665.08</time>
+    <description>/api/unbound/settings/setDot/7bbaebb0-91c9-4cb2-a934-4fd4429f9c49 made changes</description>
+    <time>1765980688.88</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -1373,7 +1373,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1765980665.08" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1765980688.88" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1507,7 +1507,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
           <enabled>1</enabled>
           <type>dot</type>
           <domain/>
-          <server>2606:4700:4700::1111</server>
+          <server>2606:4700:4700::1112</server>
           <port>853</port>
           <verify>cloudflare-dns.com</verify>
           <forward_tcp_upstream>0</forward_tcp_upstream>
