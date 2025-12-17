@@ -254,7 +254,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <opt4>
       <if>ovpnc1</if>
       <descr>NordVPN_US8561</descr>
-      <enable>1</enable>
       <spoofmac/>
     </opt4>
     <openvpn>
@@ -821,9 +820,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.183</username>
-    <description>/api/core/firmware/set made changes</description>
-    <time>1765939756.54</time>
+    <username>root@192.168.0.157</username>
+    <description>Interface NordVPN_US8561(opt4) is now disabled.</description>
+    <time>1765949987.31</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
