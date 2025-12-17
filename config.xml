@@ -116,8 +116,8 @@
     </ssh>
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
-    <firmware version="1.0.1" persisted_at="1764545512.29" description="Firmware settings">
-      <mirror>https://mirror.sfo12.us.leaseweb.net/opnsense</mirror>
+    <firmware version="1.0.1" persisted_at="1765939726.02" description="Firmware settings">
+      <mirror/>
       <flavour/>
       <plugins>os-acme-client,os-adguardhome-maxit,os-cpu-microcode-amd,os-ddclient,os-debug,os-git-backup,os-haproxy,os-homeassistant-maxit,os-mdns-repeater,os-nginx,os-openvpn-legacy,os-realtek-re,os-tailscale,os-tftp</plugins>
       <type/>
@@ -822,8 +822,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.183</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1765901651.31</time>
+    <description>/api/core/firmware/set made changes</description>
+    <time>1765939726.02</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
