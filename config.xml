@@ -116,11 +116,11 @@
     </ssh>
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
-    <firmware version="1.0.1" persisted_at="1765939726.02" description="Firmware settings">
+    <firmware version="1.0.1" persisted_at="1765939748.47" description="Firmware settings">
       <mirror/>
       <flavour/>
       <plugins>os-acme-client,os-adguardhome-maxit,os-cpu-microcode-amd,os-ddclient,os-debug,os-git-backup,os-haproxy,os-homeassistant-maxit,os-mdns-repeater,os-nginx,os-openvpn-legacy,os-realtek-re,os-tailscale,os-tftp</plugins>
-      <type/>
+      <type>devel</type>
       <subscription/>
       <reboot>0</reboot>
     </firmware>
@@ -823,7 +823,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.183</username>
     <description>/api/core/firmware/set made changes</description>
-    <time>1765939726.02</time>
+    <time>1765939748.47</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
