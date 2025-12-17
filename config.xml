@@ -864,9 +864,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.183</username>
+    <username>root@192.168.0.95</username>
     <description>/api/adguardhome/general/set made changes</description>
-    <time>1765992741.57</time>
+    <time>1765993299.54</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2719,8 +2719,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <blocklist/>
     </MDNSRepeater>
     <adguardhome>
-      <general version="0.0.1" persisted_at="1765992741.57" description="Adguardhome general configuration">
-        <enabled>1</enabled>
+      <general version="0.0.1" persisted_at="1765993299.54" description="Adguardhome general configuration">
+        <enabled>0</enabled>
         <primarydns>0</primarydns>
       </general>
     </adguardhome>
