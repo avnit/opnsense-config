@@ -865,9 +865,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.179</username>
-    <description>/api/haproxy/settings/add_frontend/ made changes</description>
-    <time>1766092502.26</time>
+    <username>root@192.168.0.124</username>
+    <description>/api/haproxy/settings/set_frontend/cf73076b-1862-4157-9b63-16fa3cc12b20 made changes</description>
+    <time>1766093384.65</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2217,7 +2217,7 @@ WS</content>
         <headers_more_enable>0</headers_more_enable>
       </http>
     </Nginx>
-    <HAProxy version="4.1.0" persisted_at="1766092502.26" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1766093384.65" description="the HAProxy load balancer">
       <general>
         <enabled>0</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2308,8 +2308,8 @@ WS</content>
         <frontend uuid="cf73076b-1862-4157-9b63-16fa3cc12b20">
           <id>69446ed63f2a13.82624961</id>
           <enabled>1</enabled>
-          <name>home-assistance</name>
-          <description>home-assistance</description>
+          <name>home-assistance-service</name>
+          <description>home-assistance service</description>
           <bind>192.168.0.168:8123,192.168.0.158:8123</bind>
           <bindOptions/>
           <mode>http</mode>
