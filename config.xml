@@ -864,9 +864,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.95</username>
-    <description>/api/adguardhome/general/set made changes</description>
-    <time>1765993299.54</time>
+    <username>root@192.168.0.135</username>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1766043060.25</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -959,7 +959,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <npt/>
         <onetoone/>
       </Filter>
-      <Alias version="1.0.1" persisted_at="1765253363.42" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1766043060.25" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -976,6 +976,73 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
             <content>10.0.0.0/8
 172.16.0.0/12
 192.168.0.0/16</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="b589ac0b-50e5-4396-8fc8-e6ab819f4271">
+            <enabled>1</enabled>
+            <name>geoips</name>
+            <type>geoip</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>GF
+GP
+GT
+GY
+HN
+HT
+JM
+SV
+UY
+AF
+AZ
+BD
+BN
+BT
+CN
+IL
+IQ
+IR
+KG
+KH
+KP
+KR
+KW
+KZ
+LA
+LB
+MM
+MN
+MO
+PH
+PK
+SY
+TH
+TJ
+UZ
+VN
+BM
+CV
+FK
+EU
+AX
+BA
+PL
+RS
+RU
+SI
+SK
+UA
+TK
+WF
+WS</content>
             <password/>
             <username/>
             <authtype/>
