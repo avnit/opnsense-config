@@ -867,7 +867,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.124</username>
     <description>/api/haproxy/settings/set made changes</description>
-    <time>1766093539.80</time>
+    <time>1766093546.51</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2217,7 +2217,7 @@ WS</content>
         <headers_more_enable>0</headers_more_enable>
       </http>
     </Nginx>
-    <HAProxy version="4.1.0" persisted_at="1766093539.80" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1766093546.51" description="the HAProxy load balancer">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2291,7 +2291,7 @@ WS</content>
           <allowedUsers/>
           <allowedGroups/>
           <customOptions/>
-          <prometheus_enabled>0</prometheus_enabled>
+          <prometheus_enabled>1</prometheus_enabled>
           <prometheus_bind>*:8404</prometheus_bind>
           <prometheus_path>/metrics</prometheus_path>
         </stats>
