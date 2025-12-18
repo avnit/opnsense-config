@@ -866,8 +866,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/api/haproxy/settings/add_backend/ made changes</description>
-    <time>1766092358.73</time>
+    <description>/api/haproxy/settings/add_frontend/ made changes</description>
+    <time>1766092502.26</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2217,7 +2217,7 @@ WS</content>
         <headers_more_enable>0</headers_more_enable>
       </http>
     </Nginx>
-    <HAProxy version="4.1.0" persisted_at="1766092358.73" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1766092502.26" description="the HAProxy load balancer">
       <general>
         <enabled>0</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2304,7 +2304,73 @@ WS</content>
           <maxSecondaryEntries>10</maxSecondaryEntries>
         </cache>
       </general>
-      <frontends/>
+      <frontends>
+        <frontend uuid="cf73076b-1862-4157-9b63-16fa3cc12b20">
+          <id>69446ed63f2a13.82624961</id>
+          <enabled>1</enabled>
+          <name>home-assistance</name>
+          <description>home-assistance</description>
+          <bind>192.168.0.168:8123,192.168.0.158:8123</bind>
+          <bindOptions/>
+          <mode>http</mode>
+          <defaultBackend>25e433a8-c6f4-49b5-9f2c-c6e8caf7dd4a</defaultBackend>
+          <ssl_enabled>1</ssl_enabled>
+          <ssl_certificates>6934efab63dea</ssl_certificates>
+          <ssl_default_certificate>6934efab63dea</ssl_default_certificate>
+          <ssl_customOptions/>
+          <ssl_advancedEnabled>1</ssl_advancedEnabled>
+          <ssl_bindOptions>prefer-client-ciphers</ssl_bindOptions>
+          <ssl_minVersion>TLSv1.2</ssl_minVersion>
+          <ssl_maxVersion>TLSv1.3</ssl_maxVersion>
+          <ssl_cipherList>ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256</ssl_cipherList>
+          <ssl_cipherSuites>TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256</ssl_cipherSuites>
+          <ssl_hstsEnabled>1</ssl_hstsEnabled>
+          <ssl_hstsIncludeSubDomains>0</ssl_hstsIncludeSubDomains>
+          <ssl_hstsPreload>0</ssl_hstsPreload>
+          <ssl_hstsMaxAge>15768000</ssl_hstsMaxAge>
+          <ssl_clientAuthEnabled>1</ssl_clientAuthEnabled>
+          <ssl_clientAuthVerify>required</ssl_clientAuthVerify>
+          <ssl_clientAuthCAs>692cd330da758</ssl_clientAuthCAs>
+          <ssl_clientAuthCRLs/>
+          <basicAuthEnabled>0</basicAuthEnabled>
+          <basicAuthUsers/>
+          <basicAuthGroups/>
+          <tuning_maxConnections/>
+          <tuning_timeoutClient/>
+          <tuning_timeoutHttpReq/>
+          <tuning_timeoutHttpKeepAlive/>
+          <linkedCpuAffinityRules/>
+          <tuning_shards/>
+          <logging_dontLogNull>0</logging_dontLogNull>
+          <logging_dontLogNormal>0</logging_dontLogNormal>
+          <logging_logSeparateErrors>0</logging_logSeparateErrors>
+          <logging_detailedLog>0</logging_detailedLog>
+          <logging_socketStats>0</logging_socketStats>
+          <stickiness_pattern>ipv4</stickiness_pattern>
+          <stickiness_dataTypes/>
+          <stickiness_expire>30m</stickiness_expire>
+          <stickiness_size>50k</stickiness_size>
+          <stickiness_counter>1</stickiness_counter>
+          <stickiness_counter_key>src</stickiness_counter_key>
+          <stickiness_length/>
+          <stickiness_connRatePeriod>10s</stickiness_connRatePeriod>
+          <stickiness_sessRatePeriod>10s</stickiness_sessRatePeriod>
+          <stickiness_httpReqRatePeriod>10s</stickiness_httpReqRatePeriod>
+          <stickiness_httpErrRatePeriod>10s</stickiness_httpErrRatePeriod>
+          <stickiness_bytesInRatePeriod>1m</stickiness_bytesInRatePeriod>
+          <stickiness_bytesOutRatePeriod>1m</stickiness_bytesOutRatePeriod>
+          <http2Enabled>1</http2Enabled>
+          <http2Enabled_nontls>0</http2Enabled_nontls>
+          <advertised_protocols>h2,http11</advertised_protocols>
+          <forwardFor>0</forwardFor>
+          <prometheus_enabled>0</prometheus_enabled>
+          <prometheus_path>/metrics</prometheus_path>
+          <connectionBehaviour>http-keep-alive</connectionBehaviour>
+          <customOptions/>
+          <linkedActions/>
+          <linkedErrorfiles/>
+        </frontend>
+      </frontends>
       <backends>
         <backend uuid="b182affd-fd36-473d-922f-82e5dc20a1d7">
           <id>6934efa6709239.19746173</id>
