@@ -867,7 +867,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.179</username>
     <description>/api/haproxy/settings/add_server/ made changes</description>
-    <time>1766092172.37</time>
+    <time>1766092224.38</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2217,7 +2217,7 @@ WS</content>
         <headers_more_enable>0</headers_more_enable>
       </http>
     </Nginx>
-    <HAProxy version="4.1.0" persisted_at="1766092172.37" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1766092224.38" description="the HAProxy load balancer">
       <general>
         <enabled>0</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2407,6 +2407,36 @@ WS</content>
           <port>8123</port>
           <checkport/>
           <mode>active</mode>
+          <multiplexer_protocol>unspecified</multiplexer_protocol>
+          <type>static</type>
+          <serviceName/>
+          <number/>
+          <linkedResolver/>
+          <resolverOpts/>
+          <resolvePrefer/>
+          <ssl>1</ssl>
+          <sslSNI>home.asbblog.com</sslSNI>
+          <sslVerify>1</sslVerify>
+          <sslCA>692cd330da758</sslCA>
+          <sslCRL/>
+          <sslClientCertificate/>
+          <maxConnections/>
+          <weight/>
+          <checkInterval/>
+          <checkDownInterval/>
+          <source/>
+          <advanced/>
+          <unix_socket/>
+        </server>
+        <server uuid="3a4bad34-8a35-46d9-831d-3ea53327d019">
+          <id>69446dc05bfc71.88752310</id>
+          <enabled>1</enabled>
+          <name>home-assistance-backup</name>
+          <description>home-assistance-on-raspi-5</description>
+          <address>192.168.0.158</address>
+          <port>8123</port>
+          <checkport/>
+          <mode>backup</mode>
           <multiplexer_protocol>unspecified</multiplexer_protocol>
           <type>static</type>
           <serviceName/>
