@@ -866,8 +866,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/api/haproxy/settings/add_server/ made changes</description>
-    <time>1766092224.38</time>
+    <description>/api/haproxy/settings/add_backend/ made changes</description>
+    <time>1766092358.73</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2217,7 +2217,7 @@ WS</content>
         <headers_more_enable>0</headers_more_enable>
       </http>
     </Nginx>
-    <HAProxy version="4.1.0" persisted_at="1766092224.38" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1766092358.73" description="the HAProxy load balancer">
       <general>
         <enabled>0</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2358,6 +2358,66 @@ WS</content>
           <tuning_timeoutCheck/>
           <tuning_timeoutServer/>
           <tuning_retries/>
+          <customOptions/>
+          <tuning_defaultserver/>
+          <tuning_noport>0</tuning_noport>
+          <tuning_httpreuse>safe</tuning_httpreuse>
+          <tuning_caching>0</tuning_caching>
+          <linkedActions/>
+          <linkedErrorfiles/>
+        </backend>
+        <backend uuid="25e433a8-c6f4-49b5-9f2c-c6e8caf7dd4a">
+          <id>69446e46b0d0b4.81913633</id>
+          <enabled>1</enabled>
+          <name>home-assistance</name>
+          <description>home assistance backend pool </description>
+          <mode>http</mode>
+          <algorithm>source</algorithm>
+          <random_draws>2</random_draws>
+          <proxyProtocol/>
+          <linkedServers>fd992182-3274-46fc-9228-1041543bd1cd,3a4bad34-8a35-46d9-831d-3ea53327d019</linkedServers>
+          <linkedFcgi/>
+          <linkedResolver/>
+          <resolverOpts>allow-dup-ip</resolverOpts>
+          <resolvePrefer/>
+          <source/>
+          <healthCheckEnabled>1</healthCheckEnabled>
+          <healthCheck/>
+          <healthCheckLogStatus>1</healthCheckLogStatus>
+          <checkInterval/>
+          <checkDownInterval/>
+          <healthCheckFall/>
+          <healthCheckRise/>
+          <linkedMailer/>
+          <http2Enabled>1</http2Enabled>
+          <http2Enabled_nontls>0</http2Enabled_nontls>
+          <ba_advertised_protocols>h2,http11</ba_advertised_protocols>
+          <forwardFor>0</forwardFor>
+          <forwardedHeader>0</forwardedHeader>
+          <forwardedHeaderParameters/>
+          <persistence>sticktable</persistence>
+          <persistence_cookiemode>piggyback</persistence_cookiemode>
+          <persistence_cookiename>SRVCOOKIE</persistence_cookiename>
+          <persistence_stripquotes>1</persistence_stripquotes>
+          <stickiness_pattern>sourceipv4</stickiness_pattern>
+          <stickiness_dataTypes>http_req_cnt,http_req_rate,http_err_cnt,http_err_rate</stickiness_dataTypes>
+          <stickiness_expire>30m</stickiness_expire>
+          <stickiness_size>50k</stickiness_size>
+          <stickiness_cookiename/>
+          <stickiness_cookielength/>
+          <stickiness_connRatePeriod>10s</stickiness_connRatePeriod>
+          <stickiness_sessRatePeriod>10s</stickiness_sessRatePeriod>
+          <stickiness_httpReqRatePeriod>10s</stickiness_httpReqRatePeriod>
+          <stickiness_httpErrRatePeriod>10s</stickiness_httpErrRatePeriod>
+          <stickiness_bytesInRatePeriod>1m</stickiness_bytesInRatePeriod>
+          <stickiness_bytesOutRatePeriod>1m</stickiness_bytesOutRatePeriod>
+          <basicAuthEnabled>0</basicAuthEnabled>
+          <basicAuthUsers/>
+          <basicAuthGroups/>
+          <tuning_timeoutConnect/>
+          <tuning_timeoutCheck/>
+          <tuning_timeoutServer/>
+          <tuning_retries>3</tuning_retries>
           <customOptions/>
           <tuning_defaultserver/>
           <tuning_noport>0</tuning_noport>
