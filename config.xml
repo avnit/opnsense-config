@@ -260,6 +260,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <opt4>
       <if>ovpnc1</if>
       <descr>NordVPN_US8561</descr>
+      <enable>1</enable>
       <spoofmac/>
     </opt4>
     <openvpn>
@@ -865,8 +866,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.135</username>
-    <description>/api/firewall/alias/add_item/ made changes</description>
-    <time>1766043060.25</time>
+    <description>/interfaces.php made changes</description>
+    <time>1766043613.62</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
