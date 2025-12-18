@@ -865,9 +865,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.135</username>
-    <description>/interfaces.php made changes</description>
-    <time>1766043613.62</time>
+    <username>root@192.168.0.179</username>
+    <description>/api/haproxy/settings/add_server/ made changes</description>
+    <time>1766092172.37</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2217,7 +2217,7 @@ WS</content>
         <headers_more_enable>0</headers_more_enable>
       </http>
     </Nginx>
-    <HAProxy version="4.1.0" persisted_at="1765076902.46" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1766092172.37" description="the HAProxy load balancer">
       <general>
         <enabled>0</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2388,6 +2388,36 @@ WS</content>
           <sslSNI/>
           <sslVerify>0</sslVerify>
           <sslCA/>
+          <sslCRL/>
+          <sslClientCertificate/>
+          <maxConnections/>
+          <weight/>
+          <checkInterval/>
+          <checkDownInterval/>
+          <source/>
+          <advanced/>
+          <unix_socket/>
+        </server>
+        <server uuid="fd992182-3274-46fc-9228-1041543bd1cd">
+          <id>69446d8c59f346.36597459</id>
+          <enabled>1</enabled>
+          <name>home-assistance</name>
+          <description>home-assistance-on-pve2</description>
+          <address>192.168.0.168</address>
+          <port>8123</port>
+          <checkport/>
+          <mode>active</mode>
+          <multiplexer_protocol>unspecified</multiplexer_protocol>
+          <type>static</type>
+          <serviceName/>
+          <number/>
+          <linkedResolver/>
+          <resolverOpts/>
+          <resolvePrefer/>
+          <ssl>1</ssl>
+          <sslSNI>home.asbblog.com</sslSNI>
+          <sslVerify>1</sslVerify>
+          <sslCA>692cd330da758</sslCA>
           <sslCRL/>
           <sslClientCertificate/>
           <maxConnections/>
