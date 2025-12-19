@@ -865,9 +865,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.124</username>
+    <username>root@192.168.0.135</username>
     <description>/api/haproxy/settings/set made changes</description>
-    <time>1766093550.99</time>
+    <time>1766113069.55</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2217,7 +2217,7 @@ WS</content>
         <headers_more_enable>0</headers_more_enable>
       </http>
     </Nginx>
-    <HAProxy version="4.1.0" persisted_at="1766093550.99" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1766113069.55" description="the HAProxy load balancer">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
