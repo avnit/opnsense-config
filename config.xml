@@ -43,7 +43,7 @@
       <comment/>
       <email/>
       <apikeys/>
-      <priv/>
+      <priv>page-system-usermanager-passwordmg</priv>
       <language/>
       <descr>System Administrator</descr>
       <dashboard>eyJvcHRpb25zIjpbXSwid2lkZ2V0cyI6W3siaWQiOiJzeXN0ZW1pbmZvcm1hdGlvbiIsIm1pblciOjIsIngiOjAsInkiOjAsImgiOjY1Mywid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6Im1lbW9yeSIsIm1pblciOjEsIngiOjIsInkiOjAsImgiOjk4LCJ3aWRnZXQiOltdLCJ3IjpudWxsfSx7ImlkIjoiZGlzayIsIm1pblciOjEsIngiOjMsInkiOjAsImgiOjk4LCJ3aWRnZXQiOltdLCJ3IjpudWxsfSx7ImlkIjoiaW50ZXJmYWNlc3RhdGlzdGljcyIsIm1pblciOjIsIngiOjQsInkiOjAsInciOjQsImgiOjIyNiwid2lkZ2V0IjpbXX0seyJpZCI6ImZpcmV3YWxsIiwibWluVyI6MiwieCI6OCwieSI6MCwidyI6NCwiaCI6MjI2LCJ3aWRnZXQiOltdfSx7ImlkIjoiY3B1IiwibWluVyI6MiwieCI6MiwieSI6OTgsImgiOjE5Niwid2lkZ2V0Ijp7ImdyYXBocyI6WyJ0b3RhbCJdfSwidyI6Mn0seyJpZCI6InNlcnZpY2VzIiwibWluVyI6MiwieCI6NCwieSI6MjI2LCJ3Ijo0LCJzaXplVG9Db250ZW50Ijo1NjgsImgiOjU2OCwid2lkZ2V0IjpbXX0seyJpZCI6InRyYWZmaWMiLCJtaW5XIjoyLCJ4Ijo4LCJ5IjoyMjYsInciOjQsImgiOjQ0Niwid2lkZ2V0Ijp7ImludGVyZmFjZXMiOlsibGFuIiwid2FuIl19fSx7ImlkIjoiZ2F0ZXdheXMiLCJtaW5XIjoyLCJ4IjoyLCJ5IjoyOTQsInNpemVUb0NvbnRlbnQiOjE1OSwiaCI6MTU5LCJ3aWRnZXQiOnsiZ2F0ZXdheXMiOlsiTEFOM19ESENQIiwiV0FOX0RIQ1A2IiwiV0FOX0RIQ1AiXX0sInciOjJ9LHsiaWQiOiJpbnRlcmZhY2VzIiwibWluVyI6Miwic2l6ZVRvQ29udGVudCI6MzI2LCJ4IjoyLCJ5Ijo0NTMsImgiOjMyNiwid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6ImRkY2xpZW50IiwibWluVyI6Miwic2l6ZVRvQ29udGVudCI6MTY2LCJ4IjowLCJ5Ijo2NTMsImgiOjE1OSwid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6Imlwc2VjbGVhc2VzIiwibWluVyI6Miwic2l6ZVRvQ29udGVudCI6MTI2LCJ4Ijo4LCJ5Ijo2NzIsImgiOjEyNiwid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6ImZpcmV3YWxsc3RhdGVzIiwibWluVyI6MSwieCI6MTAsInkiOjY3MiwiaCI6MTE2LCJ3aWRnZXQiOltdLCJ3IjpudWxsfSx7ImlkIjoiZG5zbWFzcWxlYXNlcyIsIm1pblciOjIsInNpemVUb0NvbnRlbnQiOjQzMywieCI6MCwieSI6ODEyLCJoIjo0MzMsIndpZGdldCI6eyJsZWFzZXNUb1Nob3ciOiI1MCJ9LCJ3IjoxMn1dfQ==</dashboard>
@@ -63,7 +63,7 @@
       <comment>User account </comment>
       <email>abambah@gmail.com</email>
       <apikeys/>
-      <priv>page-all</priv>
+      <priv>page-all,page-system-usermanager-passwordmg</priv>
       <language/>
       <descr>Avnit Bambah</descr>
       <dashboard/>
@@ -866,8 +866,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.135</username>
-    <description>/api/haproxy/settings/set made changes</description>
-    <time>1766113069.55</time>
+    <description>/api/auth/priv/set_item/page-system-usermanager-passwordmg made changes</description>
+    <time>1766113736.27</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
