@@ -24,7 +24,7 @@
       <name>admins</name>
       <scope>system</scope>
       <description>System Administrators</description>
-      <priv>page-all,page-system-usermanager-addprivs,page-system-usermanager</priv>
+      <priv>page-all,page-system-usermanager-addprivs,page-system-usermanager,page-system-authservers</priv>
       <member>0,2000</member>
       <source_networks/>
     </group>
@@ -866,8 +866,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.135</username>
-    <description>/api/auth/priv/set_item/page-system-usermanager made changes</description>
-    <time>1766113762.64</time>
+    <description>/api/auth/priv/set_item/page-system-authservers made changes</description>
+    <time>1766113769.74</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
