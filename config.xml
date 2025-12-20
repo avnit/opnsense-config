@@ -887,7 +887,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.5</username>
     <description>/api/freeradius/general/set made changes</description>
-    <time>1766257558.53</time>
+    <time>1766257628.65</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -3008,7 +3008,7 @@ WS</content>
       </general>
     </Hostwatch>
     <freeradius>
-      <general version="1.0.2" persisted_at="1766257558.53" description="FreeRADIUS configuration">
+      <general version="1.0.2" persisted_at="1766257628.65" description="FreeRADIUS configuration">
         <enabled>1</enabled>
         <vlanassign>0</vlanassign>
         <fallbackvlan_enabled>0</fallbackvlan_enabled>
