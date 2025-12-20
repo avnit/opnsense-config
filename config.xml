@@ -885,9 +885,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.135</username>
-    <description>/api/haproxy/settings/set made changes</description>
-    <time>1766159534.67</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1766257348.68</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -3007,6 +3007,81 @@ WS</content>
         <interface/>
       </general>
     </Hostwatch>
+    <freeradius>
+      <general version="1.0.2" persisted_at="1766257348.67" description="FreeRADIUS configuration">
+        <enabled>0</enabled>
+        <vlanassign>0</vlanassign>
+        <fallbackvlan_enabled>0</fallbackvlan_enabled>
+        <fallbackvlan_id/>
+        <fallback_tunnel_password/>
+        <ldap_enabled>0</ldap_enabled>
+        <exos>0</exos>
+        <wispr>0</wispr>
+        <chillispot>0</chillispot>
+        <mikrotik>0</mikrotik>
+        <sqlite>0</sqlite>
+        <sessionlimit>0</sessionlimit>
+        <log_destination>files</log_destination>
+        <log_authentication_request>0</log_authentication_request>
+        <log_authbadpass>0</log_authbadpass>
+        <log_authgoodpass>0</log_authgoodpass>
+        <dhcpenabled>0</dhcpenabled>
+        <dhcplistenip/>
+        <mysql>0</mysql>
+        <mysqlserver>127.0.0.1</mysqlserver>
+        <mysqlport>3306</mysqlport>
+        <mysqluser>radius</mysqluser>
+        <mysqlpassword>radpass</mysqlpassword>
+        <mysqldb>radius</mysqldb>
+        <fallbackproxy>0</fallbackproxy>
+      </general>
+      <eap version="1.9.17" persisted_at="1766257348.67" description="EAP configuration">
+        <default_eap_type>md5</default_eap_type>
+        <elliptic_curve>prime256v1</elliptic_curve>
+        <enable_client_cert>0</enable_client_cert>
+        <ca/>
+        <certificate/>
+        <crl/>
+        <check_tls_names>0</check_tls_names>
+        <tls_min_version>1.0</tls_min_version>
+      </eap>
+      <ldapgroup version="1.0.0" persisted_at="1766257348.67" description="FreeRADIUS ldapgroup configuration">
+        <ldapgroups/>
+      </ldapgroup>
+      <proxy version="0.1" persisted_at="1766257348.67" description="Proxy configuration">
+        <homeservers/>
+        <homeserverpools/>
+        <realms/>
+      </proxy>
+      <avpair version="1.0.0" persisted_at="1766257348.67" description="FreeRADIUS AVPair configuration">
+        <avpairs/>
+      </avpair>
+      <ldap version="1.0.1" persisted_at="1766257348.67" description="LDAP configuration">
+        <innertunnel>0</innertunnel>
+        <protocol>LDAPS</protocol>
+        <server/>
+        <serverport/>
+        <ldapcert/>
+        <ldapstarttls>0</ldapstarttls>
+        <identity/>
+        <password/>
+        <base_dn>dc=example,dc=domain,dc=com</base_dn>
+        <user_filter>(uid=%{%{Stripped-User-Name}:-%{User-Name}})</user_filter>
+        <group_filter>(objectClass=posixGroup)</group_filter>
+      </ldap>
+      <lease version="1.0.0" persisted_at="1766257348.67" description="FreeRADIUS DHCP Lease configuration">
+        <leases/>
+      </lease>
+      <user version="1.0.4" persisted_at="1766257348.67" description="FreeRADIUS user configuration">
+        <users/>
+      </user>
+      <client version="1.0.3" persisted_at="1766257348.68" description="FreeRADIUS client configuration">
+        <clients/>
+      </client>
+      <dhcp version="1.0.0" persisted_at="1766257348.68" description="FreeRADIUS DHCP configuration">
+        <dhcps/>
+      </dhcp>
+    </freeradius>
   </OPNsense>
   <vlans version="1.0.0" persisted_at="1764539975.74">
     <vlan/>
