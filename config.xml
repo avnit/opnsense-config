@@ -885,9 +885,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1766257349.05</time>
+    <username>root@192.168.0.5</username>
+    <description>/api/freeradius/general/set made changes</description>
+    <time>1766257558.53</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -3008,8 +3008,8 @@ WS</content>
       </general>
     </Hostwatch>
     <freeradius>
-      <general version="1.0.2" persisted_at="1766257348.67" description="FreeRADIUS configuration">
-        <enabled>0</enabled>
+      <general version="1.0.2" persisted_at="1766257558.53" description="FreeRADIUS configuration">
+        <enabled>1</enabled>
         <vlanassign>0</vlanassign>
         <fallbackvlan_enabled>0</fallbackvlan_enabled>
         <fallbackvlan_id/>
@@ -3022,9 +3022,9 @@ WS</content>
         <sqlite>0</sqlite>
         <sessionlimit>0</sessionlimit>
         <log_destination>files</log_destination>
-        <log_authentication_request>0</log_authentication_request>
-        <log_authbadpass>0</log_authbadpass>
-        <log_authgoodpass>0</log_authgoodpass>
+        <log_authentication_request>1</log_authentication_request>
+        <log_authbadpass>1</log_authbadpass>
+        <log_authgoodpass>1</log_authgoodpass>
         <dhcpenabled>0</dhcpenabled>
         <dhcplistenip/>
         <mysql>0</mysql>
