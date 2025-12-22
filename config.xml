@@ -119,7 +119,7 @@
     <firmware version="1.0.1" persisted_at="1765939756.54" description="Firmware settings">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-adguardhome-maxit,os-cpu-microcode-amd,os-ddclient,os-debug,os-freeradius,os-git-backup,os-haproxy,os-homeassistant-maxit,os-mdns-repeater,os-nginx,os-openvpn-legacy,os-realtek-re,os-tailscale,os-tftp</plugins>
+      <plugins>os-acme-client,os-adguardhome-maxit,os-cpu-microcode-amd,os-ddclient,os-debug,os-git-backup,os-haproxy,os-homeassistant-maxit,os-mdns-repeater,os-nginx,os-openvpn-legacy,os-realtek-re,os-tailscale,os-tftp</plugins>
       <type>devel</type>
       <subscription/>
       <reboot>0</reboot>
@@ -885,9 +885,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.5</username>
-    <description>/api/freeradius/general/set made changes</description>
-    <time>1766257628.65</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1766409665.60</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
