@@ -293,7 +293,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1765861990.33" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1766463203.01" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>1</regdhcp>
     <regdhcpstatic>1</regdhcpstatic>
@@ -326,6 +326,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <reply_delay/>
       <enable_ra>0</enable_ra>
       <nosync>0</nosync>
+      <log_dhcp>0</log_dhcp>
+      <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
     <hosts uuid="2e4bea21-79d7-4701-9900-446c329b668c">
@@ -333,6 +335,21 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <domain>unraid.asbblog.com</domain>
       <local>0</local>
       <ip>192.168.0.5</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr/>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="86371d9f-d341-4493-9968-89299c61f184">
+      <host>n8n</host>
+      <domain>n8n.asbblog.com</domain>
+      <local>0</local>
+      <ip>192.168.0.215</ip>
       <cnames/>
       <client_id/>
       <hwaddr/>
@@ -885,9 +902,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1766409723.28</time>
+    <username>root@192.168.0.124</username>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1766463203.01</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
