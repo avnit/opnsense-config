@@ -68,6 +68,26 @@
       <descr>Avnit Bambah</descr>
       <dashboard/>
     </user>
+    <user uuid="35329dd5-eac9-4935-a866-47eee4792cb6">
+      <uid>2001</uid>
+      <name>homeassistance</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed>Z22G74HY4XJDXE3ZM5SKNDXGBUH7OVRZ</otp_seed>
+      <shell/>
+      <password>$2y$11$/xadE.JipkpsmIJCDs.QOurfc3GZomJ.h16Z4uh.XSxKVvPRP6GsK</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email>home@asbblog.com</email>
+      <apikeys>2pJdpFWjGq/UkeNvlb1zuL1NCBWMtQ4vEoUbBldcDS4hPQ4Twztz+gjRXaRYjhV4S8IsHp4AgqhL/0SV|$6$$AZIdePEeo.YQh0nvgm/9GLmLAY0q96WxV84Jy2JdlitC8eb/Bt9tpGw40Bt7U0lv3nGdrXe3hSU8RNBV4UVr41</apikeys>
+      <priv>page-diagnostics-arptable,page-diagnostics-networkinsight</priv>
+      <language>en_US</language>
+      <descr>home assistance</descr>
+      <dashboard/>
+    </user>
     <timezone>America/Los_Angeles</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
     <webgui>
@@ -166,26 +186,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <aliasesresolveinterval/>
     <maximumtableentries/>
     <pfdebug>urgent</pfdebug>
-    <user uuid="35329dd5-eac9-4935-a866-47eee4792cb6">
-      <uid>2001</uid>
-      <name>homeassistance</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed>Z22G74HY4XJDXE3ZM5SKNDXGBUH7OVRZ</otp_seed>
-      <shell/>
-      <password>$2y$11$/xadE.JipkpsmIJCDs.QOurfc3GZomJ.h16Z4uh.XSxKVvPRP6GsK</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment/>
-      <email>home@asbblog.com</email>
-      <apikeys>2pJdpFWjGq/UkeNvlb1zuL1NCBWMtQ4vEoUbBldcDS4hPQ4Twztz+gjRXaRYjhV4S8IsHp4AgqhL/0SV|$6$$AZIdePEeo.YQh0nvgm/9GLmLAY0q96WxV84Jy2JdlitC8eb/Bt9tpGw40Bt7U0lv3nGdrXe3hSU8RNBV4UVr41</apikeys>
-      <priv>page-diagnostics-arptable,page-diagnostics-networkinsight</priv>
-      <language>en_US</language>
-      <descr>home assistance</descr>
-      <dashboard/>
-    </user>
   </system>
   <interfaces>
     <wan>
@@ -819,6 +819,34 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="5d3fc8ce-b206-45ce-afcf-63a095e639ee">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow n8n</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <address>192.168.0.215</address>
+        <port>5678</port>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.0.124</username>
+        <time>1766464885.87</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.124</username>
+        <time>1766464885.87</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="51193b00-55bf-4486-ba2b-6be9a544d0cf">
       <type>pass</type>
       <interface>openvpn</interface>
@@ -903,8 +931,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.124</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1766463232.32</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1766464885.91</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
