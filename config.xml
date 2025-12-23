@@ -293,22 +293,22 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1766463203.01" description="Dnsmasq DNS and DHCP">
-    <enable>1</enable>
-    <regdhcp>1</regdhcp>
-    <regdhcpstatic>1</regdhcpstatic>
+  <dnsmasq version="1.0.8" persisted_at="1766463232.32" description="Dnsmasq DNS and DHCP">
+    <enable>0</enable>
+    <regdhcp>0</regdhcp>
+    <regdhcpstatic>0</regdhcpstatic>
     <dhcpfirst>0</dhcpfirst>
     <strict_order>0</strict_order>
     <domain_needed>0</domain_needed>
     <no_private_reverse>0</no_private_reverse>
-    <no_resolv>1</no_resolv>
+    <no_resolv>0</no_resolv>
     <log_queries>0</log_queries>
     <no_hosts>0</no_hosts>
     <strictbind>0</strictbind>
     <dnssec>0</dnssec>
     <regdhcpdomain/>
-    <interface>lan</interface>
-    <port>0</port>
+    <interface/>
+    <port/>
     <dns_forward_max/>
     <cache_size/>
     <local_ttl/>
@@ -317,19 +317,19 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <strip_subnet>0</strip_subnet>
     <dhcp>
       <no_interface/>
-      <fqdn>1</fqdn>
+      <fqdn>0</fqdn>
       <domain/>
-      <local>1</local>
+      <local>0</local>
       <lease_max/>
       <authoritative>0</authoritative>
-      <default_fw_rules>1</default_fw_rules>
+      <default_fw_rules>0</default_fw_rules>
       <reply_delay/>
       <enable_ra>0</enable_ra>
       <nosync>0</nosync>
       <log_dhcp>0</log_dhcp>
       <log_quiet>0</log_quiet>
     </dhcp>
-    <no_ident>1</no_ident>
+    <no_ident>0</no_ident>
     <hosts uuid="2e4bea21-79d7-4701-9900-446c329b668c">
       <host>Tower</host>
       <domain>unraid.asbblog.com</domain>
@@ -903,8 +903,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.124</username>
-    <description>/api/dnsmasq/settings/add_host/ made changes</description>
-    <time>1766463203.01</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1766463232.32</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
