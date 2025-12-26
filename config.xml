@@ -293,7 +293,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1766775257.29" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1766781877.14" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -330,21 +330,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>0</no_ident>
-    <hosts uuid="2e4bea21-79d7-4701-9900-446c329b668c">
-      <host>Tower</host>
-      <domain>unraid.asbblog.com</domain>
-      <local>0</local>
-      <ip>192.168.0.5</ip>
-      <cnames/>
-      <client_id/>
-      <hwaddr/>
-      <lease_time/>
-      <ignore>0</ignore>
-      <set_tag/>
-      <descr/>
-      <comments/>
-      <aliases/>
-    </hosts>
     <hosts uuid="86371d9f-d341-4493-9968-89299c61f184">
       <host>n8n</host>
       <domain>n8n.asbblog.com</domain>
@@ -931,8 +916,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@100.96.229.46</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1766775257.29</time>
+    <description>/api/dnsmasq/settings/del_host/2e4bea21-79d7-4701-9900-446c329b668c made changes</description>
+    <time>1766781877.14</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
