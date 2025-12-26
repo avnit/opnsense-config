@@ -579,7 +579,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <nordr>0</nordr>
       <interface>wan</interface>
       <ipprotocol>inet</ipprotocol>
-      <protocol>tcp</protocol>
+      <protocol/>
       <source>
         <network/>
         <port/>
@@ -590,7 +590,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <port>21</port>
         <not>0</not>
       </destination>
-      <target>192.168.0.5</target>
+      <target>192.168.0.4</target>
       <local-port>21</local-port>
       <poolopts/>
       <log>1</log>
@@ -600,7 +600,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <tagged/>
       <nosync>0</nosync>
       <natreflection/>
-      <pass>0</pass>
+      <pass/>
       <associated-rule-id/>
       <created>
         <username>root@192.168.0.159</username>
@@ -608,9 +608,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
       <updated>
-        <username>root@192.168.0.159</username>
-        <time>1765478587.09</time>
-        <description>/firewall_nat_edit.php made changes</description>
+        <username>root</username>
+        <time>1766787149.04</time>
+        <description>/api/api.php made changes</description>
       </updated>
     </rule>
   </nat>
@@ -915,9 +915,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@100.96.229.46</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1766781885.29</time>
+    <username>root@192.168.0.4</username>
+    <description>/api/firewall/d_nat/set_rule/9b99ab58-5e51-4803-9e22-ab5610eddf24 made changes</description>
+    <time>1766787149.04</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
