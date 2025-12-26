@@ -293,8 +293,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1766463232.32" description="Dnsmasq DNS and DHCP">
-    <enable>0</enable>
+  <dnsmasq version="1.0.8" persisted_at="1766775257.29" description="Dnsmasq DNS and DHCP">
+    <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
     <dhcpfirst>0</dhcpfirst>
@@ -931,8 +931,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@100.96.229.46</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1766775245.19</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1766775257.29</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
