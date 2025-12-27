@@ -144,15 +144,17 @@
       <subscription/>
       <reboot>0</reboot>
     </firmware>
-    <dnsserver/>
+    <dnsserver>1.1.1.1</dnsserver>
+    <dnsserver>1.1.1.1</dnsserver>
+    <dnsserver>1.1.1.1</dnsserver>
     <language>en_US</language>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
     <sudo_allow_wheel>2</sudo_allow_wheel>
     <prefer_ipv4>1</prefer_ipv4>
-    <dns1gw>none</dns1gw>
-    <dns2gw>none</dns2gw>
-    <dns3gw>none</dns3gw>
+    <dns1gw>WAN_DHCP</dns1gw>
+    <dns2gw>NORDVPN_US8561_VPNV4</dns2gw>
+    <dns3gw>wan2_DHCP</dns3gw>
     <dns4gw>none</dns4gw>
     <dns5gw>none</dns5gw>
     <dns6gw>none</dns6gw>
@@ -920,8 +922,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1766814778.97</time>
+    <description>/system_general.php made changes</description>
+    <time>1766815421.28</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
