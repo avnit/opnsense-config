@@ -709,29 +709,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="b476448b-f762-4a68-a342-f0a5879bd83a">
-      <type>pass</type>
-      <associated-rule-id>nat_693b0ec5d13ee5.69395452</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.0.5</address>
-        <port>21</port>
-      </destination>
-      <log>1</log>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@192.168.0.159</username>
-        <time>1765478085.86</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="e2e9b0f3-3348-4016-96f5-b446bc900e59">
       <type>pass</type>
       <interface>wan</interface>
@@ -943,8 +920,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1766814535.88</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1766814546.54</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
