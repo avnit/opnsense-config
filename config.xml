@@ -719,15 +719,15 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <quick>1</quick>
       <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <address>73.211.194.125</address>
       </source>
       <destination>
-        <address>192.168.0.4</address>
+        <address>192.168.0.4/32</address>
         <port>21</port>
       </destination>
       <updated>
         <username>root@192.168.0.4</username>
-        <time>1766814535.84</time>
+        <time>1766814754.20</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -920,8 +920,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1766814546.54</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1766814754.24</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
