@@ -296,7 +296,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1766936364.55" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1766957556.68" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -403,6 +403,17 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <ra_router_lifetime/>
       <description/>
     </dhcp_ranges>
+    <dhcp_options uuid="1e072796-f8f4-4bf4-a139-d6dc92b5ee0f">
+      <type>set</type>
+      <option>6</option>
+      <option6/>
+      <interface/>
+      <tag/>
+      <set_tag/>
+      <value>192.168.0.185</value>
+      <force>0</force>
+      <description>use pihole for DNS</description>
+    </dhcp_options>
   </dnsmasq>
   <snmpd>
     <syslocation/>
@@ -938,8 +949,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/system_general.php made changes</description>
-    <time>1766957489.64</time>
+    <description>/api/dnsmasq/settings/add_option/ made changes</description>
+    <time>1766957556.68</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
