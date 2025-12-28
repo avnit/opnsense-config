@@ -937,8 +937,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1766934596.64</time>
+    <description>/api/tftp/general/set made changes</description>
+    <time>1766934645.84</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2819,7 +2819,7 @@ WS</content>
       </maintenance>
     </HAProxy>
     <tftp>
-      <general version="0.0.1" persisted_at="1765833377.62" description="TFTP configuration">
+      <general version="0.0.1" persisted_at="1766934645.84" description="TFTP configuration">
         <enabled>1</enabled>
         <listen>192.168.0.38</listen>
       </general>
