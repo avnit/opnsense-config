@@ -950,7 +950,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.4</username>
     <description>/api/unbound/settings/set made changes</description>
-    <time>1766959692.66</time>
+    <time>1766960779.53</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -1525,14 +1525,14 @@ WS</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1766959692.66" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1766960779.53" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
         <stats>1</stats>
         <active_interface>lan,opt4</active_interface>
         <dnssec>1</dnssec>
-        <dns64>1</dns64>
+        <dns64>0</dns64>
         <dns64prefix/>
         <noarecords>0</noarecords>
         <regdhcp>1</regdhcp>
