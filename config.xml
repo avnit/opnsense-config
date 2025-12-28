@@ -295,7 +295,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1766781885.29" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1766934588.93" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -340,6 +340,21 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <cnames/>
       <client_id/>
       <hwaddr/>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="01f4cd5e-29ab-4d2f-9257-56be549d759e">
+      <host>Tower</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.0.4</ip>
+      <cnames>unraid.abblog.com</cnames>
+      <client_id/>
+      <hwaddr>18:66:da:5e:ef:d6</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -922,8 +937,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/system_general.php made changes</description>
-    <time>1766815421.28</time>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1766934588.93</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
