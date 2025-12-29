@@ -949,8 +949,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/toggleDot/30a52fc5-5e89-445e-8ac3-91e2d4c5cfe2 made changes</description>
-    <time>1766960936.41</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1766972456.53</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -1525,7 +1525,7 @@ WS</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1766960936.41" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1766972456.53" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -1568,7 +1568,7 @@ WS</content>
         <loglocalactions>1</loglocalactions>
         <logverbosity>3</logverbosity>
         <valloglevel>0</valloglevel>
-        <privatedomain/>
+        <privatedomain>plex.direct,plex.tv</privatedomain>
         <privateaddress>0.0.0.0/8,10.0.0.0/8,100.64.0.0/10,169.254.0.0/16,172.16.0.0/12,192.0.2.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,233.252.0.0/24,::1/128,2001:db8::/32,fc00::/8,fd00::/8,fe80::/10</privateaddress>
         <insecuredomain/>
         <msgcachesize/>
