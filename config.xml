@@ -949,8 +949,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1766972456.53</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1767116246.24</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -1043,7 +1043,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <npt/>
         <onetoone/>
       </Filter>
-      <Alias version="1.0.1" persisted_at="1766043060.25" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1767116246.24" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -1133,6 +1133,25 @@ WS</content>
             <expire/>
             <categories/>
             <description/>
+          </alias>
+          <alias uuid="694f9448-60c3-424c-8ab2-4e3f5d0e8ab6">
+            <enabled>1</enabled>
+            <name>nordvpn_firewall</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>1</counters>
+            <updatefreq/>
+            <content>192.168.0.38
+192.168.0.95
+192.168.0.4</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>NordVPN Firewall IPs</description>
           </alias>
         </aliases>
       </Alias>
