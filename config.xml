@@ -974,8 +974,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/tailscale/settings/del_subnet/5328f6c7-10a0-4f87-a5ca-10a5562a5ec4 made changes</description>
-    <time>1767223691.84</time>
+    <description>/api/tailscale/settings/set made changes</description>
+    <time>1767223695.69</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
@@ -2302,7 +2302,7 @@ WS</content>
       </accounts>
     </DynDNS>
     <tailscale>
-      <settings version="1.0.0" persisted_at="1767223691.84" description="Tailscale general settings">
+      <settings version="1.0.0" persisted_at="1767223695.69" description="Tailscale general settings">
         <enabled>1</enabled>
         <loginTimeout>10</loginTimeout>
         <listenPort>41641</listenPort>
