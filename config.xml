@@ -146,7 +146,6 @@
     </firmware>
     <dnsserver>1.1.1.2</dnsserver>
     <dnsserver>1.1.0.2</dnsserver>
-    <dnsserver>1.1.1.1</dnsserver>
     <dnsserver>192.168.0.185</dnsserver>
     <language>en_US</language>
     <serialspeed>115200</serialspeed>
@@ -155,7 +154,7 @@
     <prefer_ipv4>1</prefer_ipv4>
     <dns1gw>WAN_DHCP</dns1gw>
     <dns2gw>NORDVPN_US8561_VPNV4</dns2gw>
-    <dns3gw>wan2_DHCP</dns3gw>
+    <dns3gw>none</dns3gw>
     <dns4gw>none</dns4gw>
     <dns5gw>none</dns5gw>
     <dns6gw>none</dns6gw>
@@ -1059,8 +1058,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1767299818.82</time>
+    <description>/system_general.php made changes</description>
+    <time>1767308615.37</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
