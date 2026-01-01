@@ -567,7 +567,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <nordr>0</nordr>
       <interface>wan</interface>
       <ipprotocol>inet</ipprotocol>
-      <protocol>tcp</protocol>
+      <protocol/>
       <source>
         <network/>
         <port/>
@@ -588,7 +588,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <tagged/>
       <nosync>0</nosync>
       <natreflection/>
-      <pass>0</pass>
+      <pass>pass</pass>
       <associated-rule-id/>
       <created>
         <username>root@192.168.0.151</username>
@@ -596,9 +596,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
       <updated>
-        <username>root@192.168.0.181</username>
-        <time>1765253767.78</time>
-        <description>/firewall_nat_edit.php made changes</description>
+        <username>root</username>
+        <time>1767253645.50</time>
+        <description>/api/api.php made changes</description>
       </updated>
     </rule>
     <rule uuid="9b99ab58-5e51-4803-9e22-ab5610eddf24">
@@ -1087,8 +1087,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/firewall/d_nat/set_rule/9ddc795c-4a67-4353-a0a3-47a82bb3e52b made changes</description>
-    <time>1767253635.69</time>
+    <description>/api/firewall/d_nat/set_rule/ee82b2dd-6966-443c-9c41-d0cfb3764908 made changes</description>
+    <time>1767253645.50</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
