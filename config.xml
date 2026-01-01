@@ -663,7 +663,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <poolopts/>
       <log>1</log>
       <category/>
-      <descr/>
+      <descr>Bittorrent port open to communicate</descr>
       <tag/>
       <tagged/>
       <nosync>0</nosync>
@@ -677,7 +677,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       </created>
       <updated>
         <username>root</username>
-        <time>1767253471.01</time>
+        <time>1767253549.15</time>
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
@@ -1087,8 +1087,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/firewall/d_nat/add_rule/ made changes</description>
-    <time>1767253471.02</time>
+    <description>/api/firewall/d_nat/set_rule/3b296d37-0235-4b03-a4e8-1ebee426d048 made changes</description>
+    <time>1767253549.15</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
