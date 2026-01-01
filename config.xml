@@ -938,6 +938,30 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="ef959161-f033-451b-9bbc-652d136d57f3">
+      <type>pass</type>
+      <interface>opt3</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <address>opt3,opt3ip</address>
+      </source>
+      <destination>
+        <address>lan,lanip</address>
+      </destination>
+      <updated>
+        <username>root@192.168.0.4</username>
+        <time>1767251794.69</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.4</username>
+        <time>1767251794.69</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="3dafec66-9786-4baf-bfa8-11e85c900be0">
       <type>pass</type>
       <interface>opt4</interface>
@@ -974,8 +998,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/tailscale/settings/set made changes</description>
-    <time>1767223695.69</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1767251794.73</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
