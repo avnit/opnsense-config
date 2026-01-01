@@ -628,7 +628,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <tagged/>
       <nosync>0</nosync>
       <natreflection/>
-      <pass/>
+      <pass>pass</pass>
       <associated-rule-id/>
       <created>
         <username>root@192.168.0.159</username>
@@ -637,7 +637,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       </created>
       <updated>
         <username>root</username>
-        <time>1766787149.04</time>
+        <time>1767253655.80</time>
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
@@ -1087,8 +1087,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/firewall/d_nat/set_rule/ee82b2dd-6966-443c-9c41-d0cfb3764908 made changes</description>
-    <time>1767253645.50</time>
+    <description>/api/firewall/d_nat/set_rule/9b99ab58-5e51-4803-9e22-ab5610eddf24 made changes</description>
+    <time>1767253655.80</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
