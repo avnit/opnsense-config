@@ -641,6 +641,46 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
+    <rule uuid="3b296d37-0235-4b03-a4e8-1ebee426d048">
+      <sequence>100</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <protocol/>
+      <source>
+        <network/>
+        <port/>
+        <not>0</not>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>51413</port>
+        <not>0</not>
+      </destination>
+      <target>privateRanges</target>
+      <local-port>51413</local-port>
+      <poolopts/>
+      <log>1</log>
+      <category/>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
+      <created>
+        <username>root</username>
+        <time>1767253471.01</time>
+        <description>/api/api.php made changes</description>
+      </created>
+      <updated>
+        <username>root</username>
+        <time>1767253471.01</time>
+        <description>/api/api.php made changes</description>
+      </updated>
+    </rule>
   </nat>
   <filter>
     <rule uuid="dcbbfa5b-b70d-4c92-9593-15c61210b7c5">
@@ -1047,8 +1087,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/interfaces.php made changes</description>
-    <time>1767252512.27</time>
+    <description>/api/firewall/d_nat/add_rule/ made changes</description>
+    <time>1767253471.02</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
