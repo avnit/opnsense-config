@@ -1087,8 +1087,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/routing/settings/del_gateway/ecc63161-ce62-4c30-96a1-a28399b1c466 made changes</description>
-    <time>1767297260.74</time>
+    <description>/vpn_openvpn_client.php made changes</description>
+    <time>1767297663.17</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767297260.74" description="Gateways configuration">
@@ -3338,7 +3338,9 @@ mssfix 1450;
 persist-key;
 persist-tun;
 reneg-sec 0;
-remote-cert-tls server;</custom_options>
+remote-cert-tls server;
+replay-window 512 60;
+mute-replay-warnings;</custom_options>
       <caref>692f92eb6bb24</caref>
       <certref/>
       <tls>LS0tLS1CRUdJTiBPcGVuVlBOIFN0YXRpYyBrZXkgVjEtLS0tLQ0KZTY4NWJkYWY2NTlhMjVhMjAwZTJiOWUzOWU1MWZmMDMNCjBmYzcyY2YxY2UwNzIzMmJkOGIyYmU1ZTZjNjcwMTQzDQpmNTFlOTM3ZTY3MGVlZTA5ZDRmMmVhNWE2ZTRlNjk5Ng0KNWRiODUyYzI3NTM1MWI4NmZjNGNhODkyZDc4YWUwMDINCmQ2ZjcwZDAyOWJkNzljNGQxYzI2Y2YxNGU5NTg4MDMzDQpjZjYzOWY4YTc0ODA5ZjI5ZjcyYjlkNThmOWI4ZjVmZQ0KZmM3OTM4ZWFkZTQwZTlmZWQ2Y2I5MjE4NGFiYjJjYzENCjBlYjFhMjk2ZGYyNDNiMjUxZGYwNjQzZDUzNzI0Y2RiDQo1YTkyYTFkNmNiODE3ODA0YzRhOTMxOWI1N2Q1M2JlNQ0KODA4MTViY2ZjYjJkZjU1MDE4Y2M4M2ZjNDNiYzdmZjgNCjJkNTFmOWI4ODM2NDc3NmVlOWQxMmZjODVjYzdlYTViDQo5NzQxYzRmNTk4YzQ4NTMxNmRiMDY2ZDUyZGI0NTQwZQ0KMjEyZTE1MThhOWJkNDgyODIxOWUyNGIyMGQ4OGY1OTgNCmExOTZjOWRlOTYwMTIwOTBlMzMzNTE5YWUxOGQzNTA5DQo5NDI3ZTdiMzcyZDM0OGQzNTJkYzRjODVlMThjZDRiOQ0KM2Y4YTU2ZGRiMmU2NGViNjdhZGZjOWIzMzcxNTdmZjQNCi0tLS0tRU5EIE9wZW5WUE4gU3RhdGljIGtleSBWMS0tLS0t</tls>
