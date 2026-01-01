@@ -1035,14 +1035,14 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <direction>in</direction>
       <quick>1</quick>
       <source>
-        <address>opt4,opt4ip,openvpn</address>
+        <address>privateRanges,opt4,opt4ip,openvpn</address>
       </source>
       <destination>
-        <address>lan,lanip,opt3,opt3ip</address>
+        <address>privateRanges,lan,lanip,opt3,opt3ip</address>
       </destination>
       <updated>
         <username>root@192.168.0.4</username>
-        <time>1767251894.05</time>
+        <time>1767253953.15</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1087,8 +1087,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/firewall/d_nat/set_rule/9b99ab58-5e51-4803-9e22-ab5610eddf24 made changes</description>
-    <time>1767253655.80</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1767253953.20</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1765206141.65" description="Gateways configuration">
