@@ -429,7 +429,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <destination>
           <any>1</any>
         </destination>
-        <descr/>
+        <descr>NordVPN Client output</descr>
         <category/>
         <interface>opt4</interface>
         <tag/>
@@ -437,19 +437,19 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <poolopts/>
         <poolopts_sourcehashkey/>
         <ipprotocol>inet</ipprotocol>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <sourceport/>
-        <updated>
-          <username>root@192.168.0.161</username>
-          <time>1764726492.96</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
         <created>
           <username>root@192.168.0.161</username>
           <time>1764726492.96</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </created>
+        <target/>
+        <targetip_subnet>0</targetip_subnet>
+        <sourceport/>
+        <updated>
+          <username>root@192.168.0.4</username>
+          <time>1767299220.19</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
       </rule>
       <rule>
         <source>
@@ -1087,8 +1087,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/routing/settings/set_gateway/WAN_DHCP made changes</description>
-    <time>1767298016.47</time>
+    <description>/firewall_nat_out_edit.php made changes</description>
+    <time>1767299220.24</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
