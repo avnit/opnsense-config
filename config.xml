@@ -1058,8 +1058,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/firewall/alias/set_item/694f9448-60c3-424c-8ab2-4e3f5d0e8ab6 made changes</description>
-    <time>1767595642.12</time>
+    <description>/api/firewall/alias/set made changes</description>
+    <time>1767596154.07</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -1152,9 +1152,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <npt/>
         <onetoone/>
       </Filter>
-      <Alias version="1.0.1" persisted_at="1767595642.12" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1767596154.07" description="Firewall aliases">
         <geoip>
-          <url/>
+          <url>https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&amp;license_key=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&amp;suffix=zip</url>
         </geoip>
         <aliases>
           <alias uuid="2ef23eaf-f3d4-4f30-b715-02abeecb69b2">
