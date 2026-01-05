@@ -1082,8 +1082,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1767642739.82</time>
+    <description>/api/tailscale/settings/add_subnet/ made changes</description>
+    <time>1767646276.56</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2451,7 +2451,7 @@ ST</content>
       </accounts>
     </DynDNS>
     <tailscale>
-      <settings version="1.0.0" persisted_at="1767223695.69" description="Tailscale general settings">
+      <settings version="1.0.0" persisted_at="1767646276.56" description="Tailscale general settings">
         <enabled>1</enabled>
         <loginTimeout>10</loginTimeout>
         <listenPort>41641</listenPort>
@@ -2461,7 +2461,12 @@ ST</content>
         <acceptSubnetRoutes>1</acceptSubnetRoutes>
         <enableSSH>0</enableSSH>
         <disableSNAT>0</disableSNAT>
-        <subnets/>
+        <subnets>
+          <subnet4 uuid="36267b5a-17a9-4a68-a0da-b3ed6b099556">
+            <subnet>192.68.0.0/24</subnet>
+            <description>HomeNetwork</description>
+          </subnet4>
+        </subnets>
       </settings>
       <authentication version="0.0.0" persisted_at="1764568727.00" description="Tailscale authentication settings">
         <loginServer>https://controlplane.tailscale.com</loginServer>
