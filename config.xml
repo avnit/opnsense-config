@@ -709,7 +709,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <disabled>1</disabled>
     </rule>
     <rule uuid="87d02714-6c3e-4a97-a6d4-f72dc954ebec">
-      <type>block</type>
+      <type>pass</type>
       <interface>wan</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
@@ -721,12 +721,12 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <any>1</any>
       </source>
       <destination>
-        <address>239.255.255.250</address>
+        <address>239.255.255.250/32</address>
         <port>1900</port>
       </destination>
       <updated>
         <username>root@192.168.0.4</username>
-        <time>1767706469.22</time>
+        <time>1767711706.13</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1134,8 +1134,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>Modified UPnP IGD &amp; PCP settings</description>
-    <time>1767711641.49</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1767711706.17</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
