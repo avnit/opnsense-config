@@ -1104,8 +1104,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/toggleForward/2c0fd59e-0453-469e-9546-7687205a94dc made changes</description>
-    <time>1767708824.38</time>
+    <description>/api/unbound/settings/toggleDnsbl/b2f79605-9066-47f9-bff3-c586b8aa8f2b made changes</description>
+    <time>1767708889.54</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -1732,7 +1732,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1767708824.38" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1767708889.54" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -1812,7 +1812,7 @@ ST</content>
           <description>Ad guard</description>
         </blocklist>
         <blocklist uuid="b2f79605-9066-47f9-bff3-c586b8aa8f2b">
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <type/>
           <lists/>
           <allowlists/>
