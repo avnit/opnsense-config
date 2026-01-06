@@ -1135,7 +1135,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.4</username>
     <description>Modified UPnP IGD &amp; PCP settings</description>
-    <time>1767711457.71</time>
+    <time>1767711641.49</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3529,6 +3529,7 @@ mute-replay-warnings;</custom_options>
         <enable>1</enable>
         <enable_upnp>1</enable_upnp>
         <enable_natpmp>1</enable_natpmp>
+        <permdefault>1</permdefault>
         <ext_iface>wan</ext_iface>
         <download/>
         <upload/>
