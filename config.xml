@@ -825,6 +825,33 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="87d02714-6c3e-4a97-a6d4-f72dc954ebec">
+      <type>block</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Silence SSDP/UPnP Noise</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>udp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>239.255.255.250</address>
+        <port>1900</port>
+      </destination>
+      <updated>
+        <username>root@192.168.0.4</username>
+        <time>1767706469.22</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.4</username>
+        <time>1767706469.22</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="0c2622a6-45d3-4cb0-aa93-a4e6d7b23ecb">
       <type>pass</type>
       <interface>lan</interface>
@@ -1076,8 +1103,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/system_advanced_network.php made changes</description>
-    <time>1767706095.56</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1767706469.26</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
