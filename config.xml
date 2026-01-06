@@ -1134,8 +1134,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/firewall_nat_out_edit.php made changes</description>
-    <time>1767711112.18</time>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1767711118.43</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
