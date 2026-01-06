@@ -1161,8 +1161,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1767711792.96</time>
+    <description>Modified UPnP IGD &amp; PCP settings</description>
+    <time>1767711852.05</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3566,7 +3566,7 @@ mute-replay-warnings;</custom_options>
         <stun_port/>
         <friendly_name/>
         <upnp_igd_compat>igdv1</upnp_igd_compat>
-        <permuser1/>
+        <permuser1>allow 0-65535 192.168.0.4 0-65535</permuser1>
         <permuser2/>
         <permuser3/>
         <permuser4/>
