@@ -1053,8 +1053,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/interfaces.php made changes</description>
-    <time>1767705662.03</time>
+    <description>/api/tailscale/settings/set made changes</description>
+    <time>1767705730.57</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2421,13 +2421,13 @@ ST</content>
       </accounts>
     </DynDNS>
     <tailscale>
-      <settings version="1.0.0" persisted_at="1767704326.07" description="Tailscale general settings">
+      <settings version="1.0.0" persisted_at="1767705730.57" description="Tailscale general settings">
         <enabled>1</enabled>
         <loginTimeout>10</loginTimeout>
         <listenPort>41641</listenPort>
         <acceptDNS>1</acceptDNS>
         <advertiseExitNode>1</advertiseExitNode>
-        <useExitNode/>
+        <useExitNode>100.123.69.53</useExitNode>
         <acceptSubnetRoutes>1</acceptSubnetRoutes>
         <enableSSH>0</enableSSH>
         <disableSNAT>0</disableSNAT>
