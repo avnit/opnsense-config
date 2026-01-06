@@ -766,6 +766,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <interface>wan</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
+      <descr>allow 5351 UDP</descr>
       <direction>in</direction>
       <quick>1</quick>
       <protocol>udp</protocol>
@@ -778,7 +779,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       </destination>
       <updated>
         <username>root@192.168.0.4</username>
-        <time>1767711766.75</time>
+        <time>1767711792.92</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1160,8 +1161,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1767711776.00</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1767711792.96</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
