@@ -138,7 +138,7 @@
     <firmware version="1.0.1" persisted_at="1765939756.54" description="Firmware settings">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-cpu-microcode-amd,os-ddclient,os-debug,os-git-backup,os-haproxy,os-homeassistant-maxit,os-mdns-repeater,os-nginx,os-openvpn-legacy,os-realtek-re,os-tailscale,os-tftp,os-upnp,os-wol</plugins>
+      <plugins>os-acme-client,os-ddclient,os-debug,os-git-backup,os-haproxy,os-homeassistant-maxit,os-mdns-repeater,os-nginx,os-openvpn-legacy,os-realtek-re,os-tailscale,os-tftp,os-upnp,os-wol</plugins>
       <type>devel</type>
       <subscription/>
       <reboot>0</reboot>
@@ -1162,9 +1162,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.44</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1767734496.76</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1767882863.77</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
