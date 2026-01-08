@@ -1162,9 +1162,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1767882865.32</time>
+    <username>root@192.168.0.4</username>
+    <description>/api/hostdiscovery/settings/set made changes</description>
+    <time>1767883036.79</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3338,7 +3338,7 @@ ST</content>
         <primarydns>0</primarydns>
       </general>
     </adguardhome>
-    <Hostwatch version="0.0.1" persisted_at="1765960291.67" description="Host discovery">
+    <Hostwatch version="0.0.1" persisted_at="1767883036.79" description="Host discovery">
       <general>
         <enabled>1</enabled>
         <promisc>1</promisc>
