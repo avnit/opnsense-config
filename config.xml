@@ -263,7 +263,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1766957556.68" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768030987.35" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -377,7 +377,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <interface/>
       <tag/>
       <set_tag/>
-      <value>192.168.0.185</value>
+      <value>192.168.0.185, 192.168.0.4</value>
       <force>0</force>
       <description>use pihole for DNS</description>
     </dhcp_options>
@@ -1163,8 +1163,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/firewall/alias/set_item/694f9448-60c3-424c-8ab2-4e3f5d0e8ab6 made changes</description>
-    <time>1767919053.13</time>
+    <description>/api/dnsmasq/settings/set_option/1e072796-f8f4-4bf4-a139-d6dc92b5ee0f made changes</description>
+    <time>1768030987.35</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
