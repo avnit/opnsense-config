@@ -1153,7 +1153,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.159</username>
     <description>/api/unbound/settings/addForward/ made changes</description>
-    <time>1768120376.44</time>
+    <time>1768120397.95</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -1781,7 +1781,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1768120376.44" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768120397.95" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -1984,6 +1984,17 @@ ST</content>
           <type>forward</type>
           <domain/>
           <server>192.168.0.216</server>
+          <port>53</port>
+          <verify/>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>0</forward_first>
+          <description/>
+        </dot>
+        <dot uuid="8a151020-2ea8-409f-acca-fae85eac8ff9">
+          <enabled>1</enabled>
+          <type>forward</type>
+          <domain/>
+          <server>192.168.0.28</server>
           <port>53</port>
           <verify/>
           <forward_tcp_upstream>0</forward_tcp_upstream>
