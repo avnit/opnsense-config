@@ -257,7 +257,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768627847.93" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768627986.81" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -296,10 +296,10 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <no_ident>0</no_ident>
     <hosts uuid="86371d9f-d341-4493-9968-89299c61f184">
       <host>n8n</host>
-      <domain>n8n.asbblog.com</domain>
+      <domain>n8n.local</domain>
       <local>0</local>
       <ip>192.168.0.215</ip>
-      <cnames/>
+      <cnames>n8n.asbblog.com</cnames>
       <client_id/>
       <hwaddr/>
       <lease_time/>
@@ -1315,8 +1315,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.156</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1768627847.93</time>
+    <description>/api/dnsmasq/settings/set_host/86371d9f-d341-4493-9968-89299c61f184 made changes</description>
+    <time>1768627986.81</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
