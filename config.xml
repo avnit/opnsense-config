@@ -141,14 +141,13 @@
     </firmware>
     <dnsserver>1.1.1.1</dnsserver>
     <dnsserver>8.8.8.8</dnsserver>
-    <dnsserver>192.168.0.28</dnsserver>
     <language>en_US</language>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
     <sudo_allow_wheel>2</sudo_allow_wheel>
     <prefer_ipv4>1</prefer_ipv4>
-    <dns1gw>WAN_DHCP</dns1gw>
-    <dns2gw>WAN_DHCP</dns2gw>
+    <dns1gw>none</dns1gw>
+    <dns2gw>none</dns2gw>
     <dns3gw>none</dns3gw>
     <dns4gw>none</dns4gw>
     <dns5gw>none</dns5gw>
@@ -1301,8 +1300,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.156</username>
-    <description>Interface tailscale(opt3) is now disabled.</description>
-    <time>1768626082.57</time>
+    <description>/system_general.php made changes</description>
+    <time>1768626665.87</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
