@@ -257,7 +257,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768628024.00" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768628059.82" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -332,6 +332,21 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <cnames/>
       <client_id/>
       <hwaddr/>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="9799e29f-baa2-4c91-8085-b8871ca8dd4a">
+      <host>pve-backup</host>
+      <domain>pve-backup.local</domain>
+      <local>0</local>
+      <ip>192.168.0.11</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>d8:43:ae:f6:74:95</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -1315,8 +1330,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.156</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1768628024.00</time>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1768628059.82</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
