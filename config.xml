@@ -188,6 +188,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <descr>WAN</descr>
       <enable>1</enable>
       <spoofmac/>
+      <blockpriv>1</blockpriv>
       <blockbogons>1</blockbogons>
       <media>autoselect</media>
       <ipaddr>dhcp</ipaddr>
@@ -1329,9 +1330,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.156</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1768628065.51</time>
+    <username>root@192.168.0.9</username>
+    <description>/interfaces.php made changes</description>
+    <time>1768633356.59</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
