@@ -134,7 +134,7 @@
     <firmware version="1.0.1" persisted_at="1765939756.54" description="Firmware settings">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-cpu-microcode-amd,os-ddclient,os-debug,os-git-backup,os-haproxy,os-homeassistant-maxit,os-mdns-repeater,os-nginx,os-ntopng,os-openvpn-legacy,os-realtek-re,os-redis,os-tailscale,os-tftp,os-upnp,os-wol</plugins>
+      <plugins>os-acme-client,os-cpu-microcode-amd,os-ddclient,os-debug,os-git-backup,os-haproxy,os-homeassistant-maxit,os-isc-dhcp-devel,os-mdns-repeater,os-nginx,os-ntopng,os-openvpn-legacy,os-realtek-re,os-redis,os-tailscale,os-tftp,os-upnp,os-wol</plugins>
       <type>devel</type>
       <subscription/>
       <reboot>0</reboot>
@@ -1302,8 +1302,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1768624377.95</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1768624385.36</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
