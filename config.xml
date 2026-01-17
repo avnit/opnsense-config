@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <opnsense>
   <theme>opnsense</theme>
-  <sysctl version="1.0.1" persisted_at="1764599917.13" description="System Tunables">
+  <sysctl version="1.0.2" persisted_at="1768624377.45" description="System Tunables">
     <item uuid="8dc38e7c-ce84-48af-ae22-f3ab5eb07747">
       <tunable>net.link.bridge.pfil_member</tunable>
       <value>0</value>
@@ -107,10 +107,6 @@
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
     <disableconsolemenu>1</disableconsolemenu>
-    <disablevlanhwfilter>1</disablevlanhwfilter>
-    <disablechecksumoffloading>1</disablechecksumoffloading>
-    <disablesegmentationoffloading>1</disablesegmentationoffloading>
-    <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
     <powerd_ac_mode>hadp</powerd_ac_mode>
     <powerd_battery_mode>hadp</powerd_battery_mode>
     <powerd_normal_mode>hadp</powerd_normal_mode>
@@ -176,7 +172,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <password/>
       </git>
     </backup>
-    <dhcp6_debug>2</dhcp6_debug>
     <autologout>32000</autologout>
     <contact_email>abambah@gmail.com</contact_email>
     <secondaryconsole/>
@@ -1306,9 +1301,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.156</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1768624248.25</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1768624377.95</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -1662,6 +1657,17 @@ ST</content>
       <neighbors version="1.0.0" persisted_at="1764539975.74"/>
       <vxlans version="1.0.2" persisted_at="1764539975.74"/>
       <loopbacks version="1.0.0" persisted_at="1764539975.74"/>
+      <settings version="1.0.0" persisted_at="1768624377.75" description="Global interface settings">
+        <disablechecksumoffloading>1</disablechecksumoffloading>
+        <disablesegmentationoffloading>1</disablesegmentationoffloading>
+        <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
+        <disablevlanhwfilter>1</disablevlanhwfilter>
+        <disableipv6>1</disableipv6>
+        <dhcp6_norelease>0</dhcp6_norelease>
+        <dhcp6_debug>1</dhcp6_debug>
+        <dhcp6_duid/>
+        <dhcp6_ratimeout>10</dhcp6_ratimeout>
+      </settings>
     </Interfaces>
     <Syslog version="1.0.2" persisted_at="1764539975.87">
       <general>
@@ -1916,7 +1922,7 @@ ST</content>
         </general>
       </ctrl_agent>
     </Kea>
-    <IDS version="1.1.1" persisted_at="1764541417.68" description="Intrusion detection">
+    <IDS version="1.1.2" persisted_at="1768624377.75" description="Intrusion detection">
       <rules/>
       <policies/>
       <userDefinedRules/>
@@ -1924,7 +1930,8 @@ ST</content>
       <fileTags/>
       <general>
         <enabled>0</enabled>
-        <ips>0</ips>
+        <mode>pcap</mode>
+        <divert_listeners>1</divert_listeners>
         <promisc>0</promisc>
         <interfaces>wan</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
@@ -3519,7 +3526,7 @@ ST</content>
         <primarydns>0</primarydns>
       </general>
     </adguardhome>
-    <Hostwatch version="0.0.1" persisted_at="1767883036.79" description="Host discovery">
+    <Hostwatch version="1.0.0" persisted_at="1768624377.59" description="Host discovery">
       <general>
         <enabled>1</enabled>
         <promisc>1</promisc>
@@ -3639,6 +3646,7 @@ ST</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
+    <radvd version="1.0.0" persisted_at="1768624377.64" description="Radvd configuration"/>
   </OPNsense>
   <vlans version="1.0.0" persisted_at="1764539975.74">
     <vlan/>
