@@ -1301,7 +1301,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.156</username>
     <description>Modified UPnP IGD &amp; PCP settings</description>
-    <time>1768627556.63</time>
+    <time>1768627607.70</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3798,7 +3798,7 @@ float</custom_options>
         <stun_port/>
         <friendly_name/>
         <upnp_igd_compat>igdv1</upnp_igd_compat>
-        <permuser1>allow 0-65535 192.168.0.4 0-65535</permuser1>
+        <permuser1>allow 22 192.168.0.4 22</permuser1>
         <permuser2>allow 1024-65535 192.168.0.159 1024-65535</permuser2>
         <permuser3/>
         <permuser4/>
