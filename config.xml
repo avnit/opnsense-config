@@ -25,7 +25,7 @@
       <scope>system</scope>
       <description>System Administrators</description>
       <priv>page-all,page-diagnostics-arptable,page-diagnostics-authentication,page-diagnostics-backup-restore,page-diagnostics-configurationhistory,page-diagnostics-factorydefaults,page-diagnostics-system-pftop,page-firewall-nat-portforward-edit,page-Nginx,page-system-usermanager-addprivs,page-system-usermanager,page-system-authservers</priv>
-      <member>0,2000</member>
+      <member>0,2000,2001</member>
       <source_networks/>
     </group>
     <user uuid="67827a5e-dcf9-46e4-bc2c-36be60126add">
@@ -83,7 +83,7 @@
       <comment/>
       <email>home@asbblog.com</email>
       <apikeys>2pJdpFWjGq/UkeNvlb1zuL1NCBWMtQ4vEoUbBldcDS4hPQ4Twztz+gjRXaRYjhV4S8IsHp4AgqhL/0SV|$6$$AZIdePEeo.YQh0nvgm/9GLmLAY0q96WxV84Jy2JdlitC8eb/Bt9tpGw40Bt7U0lv3nGdrXe3hSU8RNBV4UVr41</apikeys>
-      <priv>page-diagnostics-arptable,page-diagnostics-networkinsight</priv>
+      <priv>page-all,page-diagnostics-arptable,page-diagnostics-networkinsight</priv>
       <language>en_US</language>
       <descr>home assistance</descr>
       <dashboard/>
@@ -1331,8 +1331,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.183</username>
-    <description>/api/auth/user/add_api_key/root made changes</description>
-    <time>1768714543.40</time>
+    <description>user "homeassistance" changed</description>
+    <time>1768714595.41</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
