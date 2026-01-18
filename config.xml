@@ -42,7 +42,7 @@
       <landing_page/>
       <comment/>
       <email/>
-      <apikeys/>
+      <apikeys>PwVM/HALak6rjVvtplvyfc4Bkxcqvm7cOmjo0hSqot9VF/NYH+QWmplYAMjRhb9yRr3v+kfW/w/Jz2DS|$6$$vRtXOAnOTCG6nAQFT3crxQjcX9IlBH/FnSZ0PtbwAPuUkMcBOb7YTqxR6I8QXNqd/3riCFJomV8SiZTk8HQi71</apikeys>
       <priv>page-system-usermanager-passwordmg,page-system-usermanager-addprivs,page-firewall-nat-portforward-edit</priv>
       <language/>
       <descr>System Administrator</descr>
@@ -1330,9 +1330,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.9</username>
-    <description>/interfaces.php made changes</description>
-    <time>1768633356.59</time>
+    <username>root@192.168.0.183</username>
+    <description>/api/auth/user/add_api_key/root made changes</description>
+    <time>1768714543.40</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
