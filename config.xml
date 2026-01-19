@@ -1262,6 +1262,30 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="3aaa438c-dcbd-4283-b797-7b983ce4de9b">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>out</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.0.179</username>
+        <time>1768867043.40</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.179</username>
+        <time>1768867043.40</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="ef959161-f033-451b-9bbc-652d136d57f3">
       <type>pass</type>
       <interface>opt3</interface>
@@ -1398,7 +1422,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.179</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1768867031.63</time>
+    <time>1768867043.44</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
