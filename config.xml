@@ -257,6 +257,10 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <virtual>1</virtual>
       <networks/>
     </openvpn>
+    <opt1>
+      <descr>LAN2</descr>
+      <if>ue0</if>
+    </opt1>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1768628065.51" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
@@ -1367,8 +1371,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1768844177.31</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1768866920.88</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
