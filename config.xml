@@ -1114,6 +1114,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <descr>Ip that needs to go via nord vpn</descr>
       <gateway>NORDVPN_US8561_VPNV4</gateway>
       <direction>in</direction>
+      <category>nordvpn</category>
       <quick>1</quick>
       <source>
         <address>nordvpn_firewall</address>
@@ -1122,8 +1123,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <any>1</any>
       </destination>
       <updated>
-        <username>root@192.168.0.159</username>
-        <time>1768335316.44</time>
+        <username>root@192.168.0.179</username>
+        <time>1768844100.19</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1367,7 +1368,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.179</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1768844068.08</time>
+    <time>1768844100.24</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
