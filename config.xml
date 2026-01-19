@@ -1367,8 +1367,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1768844100.24</time>
+    <description>/api/firewall/alias/set_item/694f9448-60c3-424c-8ab2-4e3f5d0e8ab6 made changes</description>
+    <time>1768844138.20</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -1461,7 +1461,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <npt/>
         <onetoone/>
       </Filter>
-      <Alias version="1.0.1" persisted_at="1768844033.41" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1768844138.20" description="Firewall aliases">
         <geoip>
           <url>https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&amp;license_key=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&amp;suffix=zip</url>
         </geoip>
@@ -1598,12 +1598,13 @@ ST</content>
 192.168.0.162
 192.168.0.185
 192.168.0.180
-172.28.10.3</content>
+172.28.10.3
+192.168.0.17</content>
             <password>golD123@</password>
             <username>root</username>
             <authtype/>
             <expire/>
-            <categories/>
+            <categories>0c1102e4-064e-49f9-873e-3ba813903ded</categories>
             <description>NordVPN Firewall IPs</description>
           </alias>
           <alias uuid="5881847f-fe11-45e3-8a38-88bd3e0ab758">
