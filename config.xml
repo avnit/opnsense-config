@@ -795,6 +795,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <statetype>keep state</statetype>
       <descr>Silence SSDP/UPnP Noise</descr>
       <direction>in</direction>
+      <category>Internet</category>
       <quick>1</quick>
       <protocol>udp</protocol>
       <source>
@@ -805,8 +806,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <port>1900</port>
       </destination>
       <updated>
-        <username>root@192.168.0.4</username>
-        <time>1767711706.13</time>
+        <username>root@192.168.0.179</username>
+        <time>1768843983.46</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1363,8 +1364,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/api/firewall/category/set_item/0c1102e4-064e-49f9-873e-3ba813903ded made changes</description>
-    <time>1768843943.22</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1768843983.50</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
