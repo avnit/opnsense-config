@@ -1365,8 +1365,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/api/firewall/alias/set_item/b589ac0b-50e5-4396-8fc8-e6ab819f4271 made changes</description>
-    <time>1768844020.79</time>
+    <description>/api/firewall/alias/toggle_item/b589ac0b-50e5-4396-8fc8-e6ab819f4271 made changes</description>
+    <time>1768844027.11</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -1459,7 +1459,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <npt/>
         <onetoone/>
       </Filter>
-      <Alias version="1.0.1" persisted_at="1768844020.79" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1768844027.11" description="Firewall aliases">
         <geoip>
           <url>https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&amp;license_key=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&amp;suffix=zip</url>
         </geoip>
@@ -1484,7 +1484,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
             <description/>
           </alias>
           <alias uuid="b589ac0b-50e5-4396-8fc8-e6ab819f4271">
-            <enabled>0</enabled>
+            <enabled>1</enabled>
             <name>geoips</name>
             <type>geoip</type>
             <path_expression/>
