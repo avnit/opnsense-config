@@ -1360,7 +1360,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.179</username>
     <description>/api/firewall/category/add_item/ made changes</description>
-    <time>1768843702.91</time>
+    <time>1768843726.27</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -1624,12 +1624,17 @@ ST</content>
           </alias>
         </aliases>
       </Alias>
-      <Category version="1.0.0" persisted_at="1768843702.91" description="Firewall categories">
+      <Category version="1.0.0" persisted_at="1768843726.27" description="Firewall categories">
         <categories>
           <category uuid="aea6b7eb-bda4-4d03-baee-d937857ff80b">
             <name>Internet</name>
             <auto>0</auto>
             <color>f60404</color>
+          </category>
+          <category uuid="2b6ad2ef-65f0-448c-8e60-eef87dbce83f">
+            <name>internal</name>
+            <auto>0</auto>
+            <color>05f535</color>
           </category>
         </categories>
       </Category>
