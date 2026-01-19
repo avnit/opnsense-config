@@ -1362,8 +1362,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1768843864.12</time>
+    <description>/api/firewall/category/add_item/ made changes</description>
+    <time>1768843888.02</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -1627,7 +1627,7 @@ ST</content>
           </alias>
         </aliases>
       </Alias>
-      <Category version="1.0.0" persisted_at="1768843726.27" description="Firewall categories">
+      <Category version="1.0.0" persisted_at="1768843888.02" description="Firewall categories">
         <categories>
           <category uuid="aea6b7eb-bda4-4d03-baee-d937857ff80b">
             <name>Internet</name>
@@ -1638,6 +1638,11 @@ ST</content>
             <name>internal</name>
             <auto>0</auto>
             <color>05f535</color>
+          </category>
+          <category uuid="0c1102e4-064e-49f9-873e-3ba813903ded">
+            <name>nordvpn</name>
+            <auto>0</auto>
+            <color>000000</color>
           </category>
         </categories>
       </Category>
