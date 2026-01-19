@@ -945,6 +945,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <descr>allow</descr>
       <gateway>NORDVPN_US8561_VPNV4</gateway>
       <direction>in</direction>
+      <category>nordvpn</category>
       <quick>1</quick>
       <protocol>tcp/udp</protocol>
       <source>
@@ -955,8 +956,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <port>51413</port>
       </destination>
       <updated>
-        <username>root@192.168.0.4</username>
-        <time>1767252444.64</time>
+        <username>root@192.168.0.179</username>
+        <time>1768843907.49</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1362,8 +1363,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/api/firewall/category/add_item/ made changes</description>
-    <time>1768843888.02</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1768843907.54</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
