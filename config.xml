@@ -1133,6 +1133,32 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="7e1344ef-8403-4af9-a824-8fdbbf6082af">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow LAN to OPNsense DNS</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>igmp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>lanip</network>
+      </destination>
+      <updated>
+        <username>root@192.168.0.240</username>
+        <time>1768928721.56</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.240</username>
+        <time>1768928721.56</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="0c2622a6-45d3-4cb0-aa93-a4e6d7b23ecb">
       <type>pass</type>
       <interface>lan</interface>
@@ -1548,8 +1574,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.240</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1768926340.76</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1768928721.60</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
