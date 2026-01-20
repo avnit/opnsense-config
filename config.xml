@@ -773,14 +773,14 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <floating>yes</floating>
       <quick>1</quick>
       <source>
-        <any>1</any>
+        <address>privateRanges</address>
       </source>
       <destination>
-        <any>1</any>
+        <address>privateRanges</address>
       </destination>
       <updated>
         <username>root@192.168.0.240</username>
-        <time>1768926040.99</time>
+        <time>1768937543.24</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1600,9 +1600,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.159</username>
-    <description>/api/interfaces/bridge_settings/del_item/a9a484b2-f971-4017-8489-89ac35d01bf8 made changes</description>
-    <time>1768933298.17</time>
+    <username>root@192.168.0.240</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1768937543.29</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
