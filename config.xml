@@ -1560,8 +1560,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1768948457.83</time>
+    <description>/usr/local/etc/rc.filter_configure made changes</description>
+    <time>1768948458.32</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -1654,7 +1654,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <npt/>
         <onetoone/>
       </Filter>
-      <Alias version="1.0.1" persisted_at="1768844177.31" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1768948458.32" description="Firewall aliases">
         <geoip>
           <url>https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&amp;license_key=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&amp;suffix=zip</url>
         </geoip>
@@ -1823,6 +1823,23 @@ ST</content>
             <expire/>
             <categories/>
             <description>Commonly exploited ports - Telnet, NetBIOS, SMB, RDP</description>
+          </alias>
+          <alias uuid="2d2714f6-80bb-4fd5-b36c-df6aff419c64">
+            <enabled>1</enabled>
+            <name>crowdsec_blocklists</name>
+            <type>external</type>
+            <path_expression/>
+            <proto>IPv4</proto>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content/>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>CrowdSec (IPv4)</description>
           </alias>
         </aliases>
       </Alias>
