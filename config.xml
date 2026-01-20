@@ -1060,8 +1060,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <statetype>keep state</statetype>
       <descr>Allow https rule</descr>
       <direction>in</direction>
+      <log>1</log>
       <quick>1</quick>
-      <protocol>tcp</protocol>
+      <protocol>tcp/udp</protocol>
       <source>
         <any>1</any>
         <port>443</port>
@@ -1071,8 +1072,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <port>443</port>
       </destination>
       <updated>
-        <username>root@192.168.0.179</username>
-        <time>1768843786.86</time>
+        <username>root@192.168.0.240</username>
+        <time>1768938363.13</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1080,7 +1081,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <time>1768779183.90</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="b450f8b9-52f8-41c5-9554-e7f3723cbd43">
       <type>pass</type>
@@ -1591,7 +1591,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.240</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1768938172.32</time>
+    <time>1768938363.18</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
