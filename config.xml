@@ -269,7 +269,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <gatewayv6/>
     </opt1>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768867254.72" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768877189.24" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -298,7 +298,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <local>0</local>
       <lease_max/>
       <authoritative>0</authoritative>
-      <default_fw_rules>0</default_fw_rules>
+      <default_fw_rules>1</default_fw_rules>
       <reply_delay/>
       <enable_ra>0</enable_ra>
       <nosync>0</nosync>
@@ -366,15 +366,45 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <comments/>
       <aliases/>
     </hosts>
-    <dhcp_ranges>
+    <dhcp_ranges uuid="9518574b-f88c-4e8c-b470-394c53399b75">
       <interface>lan</interface>
+      <set_tag/>
       <start_addr>192.168.0.2</start_addr>
       <end_addr>192.168.0.254</end_addr>
+      <subnet_mask/>
+      <constructor/>
+      <mode/>
+      <prefix_len/>
+      <lease_time/>
+      <domain_type>range</domain_type>
+      <domain/>
+      <nosync>0</nosync>
+      <ra_mode/>
+      <ra_priority/>
+      <ra_mtu/>
+      <ra_interval/>
+      <ra_router_lifetime/>
+      <description/>
     </dhcp_ranges>
-    <dhcp_ranges>
+    <dhcp_ranges uuid="4f2f0c62-e762-48f4-afb0-4c485b205d2a">
       <interface>opt1</interface>
+      <set_tag/>
       <start_addr>192.168.1.2</start_addr>
       <end_addr>192.168.1.254</end_addr>
+      <subnet_mask/>
+      <constructor/>
+      <mode/>
+      <prefix_len/>
+      <lease_time/>
+      <domain_type>range</domain_type>
+      <domain/>
+      <nosync>0</nosync>
+      <ra_mode/>
+      <ra_priority/>
+      <ra_mtu/>
+      <ra_interval/>
+      <ra_router_lifetime/>
+      <description/>
     </dhcp_ranges>
     <dhcp_options uuid="98b3efb5-c35b-4876-92be-dbe3143f649c">
       <type>set</type>
@@ -1408,9 +1438,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.156</username>
-    <description>/system_advanced_admin.php made changes</description>
-    <time>1768876696.52</time>
+    <username>root@192.168.0.179</username>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1768877189.24</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
