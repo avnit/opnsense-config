@@ -1371,6 +1371,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <statetype>keep state</statetype>
       <descr>Allow LAN to OPNsense IGMP</descr>
       <direction>in</direction>
+      <log>1</log>
       <quick>1</quick>
       <protocol>igmp</protocol>
       <source>
@@ -1381,7 +1382,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       </destination>
       <updated>
         <username>root@192.168.0.240</username>
-        <time>1768929093.73</time>
+        <time>1768929361.17</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1601,7 +1602,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.240</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1768929093.78</time>
+    <time>1768929361.22</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
