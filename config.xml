@@ -1561,7 +1561,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.240</username>
     <description>/api/crowdsec/general/set made changes</description>
-    <time>1768948638.22</time>
+    <time>1768948715.79</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3957,7 +3957,7 @@ ST</content>
     </redis>
     <radvd version="1.0.0" persisted_at="1768624377.64" description="Radvd configuration"/>
     <crowdsec>
-      <general version="1.0.12" persisted_at="1768948638.22" description="CrowdSec general configuration">
+      <general version="1.0.12" persisted_at="1768948715.79" description="CrowdSec general configuration">
         <agent_enabled>1</agent_enabled>
         <lapi_enabled>1</lapi_enabled>
         <firewall_bouncer_enabled>1</firewall_bouncer_enabled>
@@ -3965,10 +3965,10 @@ ST</content>
         <lapi_listen_address>127.0.0.1</lapi_listen_address>
         <lapi_listen_port>8080</lapi_listen_port>
         <rules_enabled>1</rules_enabled>
-        <rules_log>0</rules_log>
+        <rules_log>1</rules_log>
         <rules_tag/>
         <enroll_key>cmcrb46280003jr02n1xkn3kx</enroll_key>
-        <crowdsec_firewall_verbose>0</crowdsec_firewall_verbose>
+        <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
   </OPNsense>
