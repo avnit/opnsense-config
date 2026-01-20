@@ -264,7 +264,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <spoofmac/>
     </opt1>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768867215.42" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768867254.72" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -409,6 +409,17 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <tag/>
       <set_tag/>
       <value>192.168.0.28,192.168.0.216</value>
+      <force>0</force>
+      <description/>
+    </dhcp_options>
+    <dhcp_options uuid="d3e42b37-11b1-4d76-82ec-abe3ef62be77">
+      <type>set</type>
+      <option>6</option>
+      <option6/>
+      <interface>opt1</interface>
+      <tag/>
+      <set_tag/>
+      <value>1.1.1.1</value>
       <force>0</force>
       <description/>
     </dhcp_options>
@@ -1421,8 +1432,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/api/dnsmasq/settings/set_range/23c260a7-7967-4312-a606-79d744cdffca made changes</description>
-    <time>1768867215.42</time>
+    <description>/api/dnsmasq/settings/add_option/ made changes</description>
+    <time>1768867254.72</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
