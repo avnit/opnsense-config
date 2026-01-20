@@ -261,8 +261,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <descr>LAN2</descr>
       <enable>1</enable>
       <spoofmac/>
-      <ipaddr>dhcp</ipaddr>
-      <subnet/>
+      <ipaddr>192.168.1.1</ipaddr>
+      <subnet>24</subnet>
       <gateway/>
       <ipaddrv6/>
       <subnetv6/>
@@ -370,6 +370,11 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <interface>lan</interface>
       <start_addr>192.168.0.2</start_addr>
       <end_addr>192.168.0.254</end_addr>
+    </dhcp_ranges>
+    <dhcp_ranges>
+      <interface>opt1</interface>
+      <start_addr>192.168.1.2</start_addr>
+      <end_addr>192.168.1.254</end_addr>
     </dhcp_ranges>
     <dhcp_options uuid="98b3efb5-c35b-4876-92be-dbe3143f649c">
       <type>set</type>
@@ -1402,8 +1407,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>lan configuration from console menu</description>
-    <time>1768876232.02</time>
+    <description>opt1 configuration from console menu</description>
+    <time>1768876294.25</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
