@@ -1254,6 +1254,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <interface>opt1</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
+      <gateway>WAN_DHCP</gateway>
       <direction>out</direction>
       <quick>1</quick>
       <source>
@@ -1263,8 +1264,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <any>1</any>
       </destination>
       <updated>
-        <username>root@192.168.0.179</username>
-        <time>1768867043.40</time>
+        <username>root@192.168.0.156</username>
+        <time>1768876638.98</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1409,7 +1410,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.156</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1768876628.13</time>
+    <time>1768876639.02</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
