@@ -1551,8 +1551,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.240</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1768925247.43</time>
+    <description>/api/mdnsrepeater/settings/set made changes</description>
+    <time>1768925310.44</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3780,10 +3780,10 @@ ST</content>
         <webcategoriesType/>
       </rules>
     </Zenarmor>
-    <MDNSRepeater version="1.0.1" persisted_at="1765207331.54" description="mdns-repeater settings">
-      <enabled>0</enabled>
+    <MDNSRepeater version="1.0.1" persisted_at="1768925310.44" description="mdns-repeater settings">
+      <enabled>1</enabled>
       <enablecarp>0</enablecarp>
-      <interfaces>lan</interfaces>
+      <interfaces>lan,opt1</interfaces>
       <blocklist/>
     </MDNSRepeater>
     <adguardhome>
