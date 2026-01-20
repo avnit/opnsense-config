@@ -91,13 +91,11 @@
     <timezone>America/Los_Angeles</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
     <webgui>
-      <protocol>https</protocol>
+      <protocol>http</protocol>
       <ssl-certref>6934efab63dea</ssl-certref>
       <port/>
       <compression/>
       <httpaccesslog>1</httpaccesslog>
-      <ssl-ciphers/>
-      <interfaces/>
       <althostnames>opnsense.asbblog.com</althostnames>
       <nohttpreferercheck>1</nohttpreferercheck>
       <disablehttpredirect>1</disablehttpredirect>
@@ -263,6 +261,12 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <descr>LAN2</descr>
       <enable>1</enable>
       <spoofmac/>
+      <ipaddr>dhcp</ipaddr>
+      <subnet/>
+      <gateway/>
+      <ipaddrv6/>
+      <subnetv6/>
+      <gatewayv6/>
     </opt1>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1768867254.72" description="Dnsmasq DNS and DHCP">
@@ -381,26 +385,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <ra_interval/>
       <ra_router_lifetime/>
       <description/>
-    </dhcp_ranges>
-    <dhcp_ranges uuid="23c260a7-7967-4312-a606-79d744cdffca">
-      <interface>opt1</interface>
-      <set_tag/>
-      <start_addr>192.168.2.2</start_addr>
-      <end_addr>192.168.2.254</end_addr>
-      <subnet_mask/>
-      <constructor/>
-      <mode/>
-      <prefix_len/>
-      <lease_time/>
-      <domain_type>range</domain_type>
-      <domain/>
-      <nosync>0</nosync>
-      <ra_mode/>
-      <ra_priority/>
-      <ra_mtu/>
-      <ra_interval/>
-      <ra_router_lifetime/>
-      <description>TV and music system</description>
     </dhcp_ranges>
     <dhcp_options uuid="98b3efb5-c35b-4876-92be-dbe3143f649c">
       <type>set</type>
@@ -1433,8 +1417,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>Console assignment of interfaces</description>
-    <time>1768875486.19</time>
+    <description>opt1 configuration from console menu</description>
+    <time>1768875599.23</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
