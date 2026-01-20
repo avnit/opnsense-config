@@ -764,33 +764,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     </rule>
   </nat>
   <filter>
-    <rule uuid="dcbbfa5b-b70d-4c92-9593-15c61210b7c5">
-      <type>pass</type>
-      <interface>lan,opt3</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow Remote to Web Server (unraid)</descr>
-      <direction>in</direction>
-      <floating>yes</floating>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>192.168.0.5</address>
-      </destination>
-      <updated>
-        <username>root@192.168.0.151</username>
-        <time>1765256733.48</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.151</username>
-        <time>1765256733.48</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
     <rule uuid="0c4bbf91-f339-4635-9906-ba9d6d0f374f">
       <type>block</type>
       <interface>wan</interface>
@@ -1550,8 +1523,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.240</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1768925961.53</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1768925984.34</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
