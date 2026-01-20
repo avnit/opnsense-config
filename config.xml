@@ -1308,6 +1308,60 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="a1a8d3cb-8194-4432-80de-d8fda53c6a84">
+      <type>block</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Block malware C2 and lateral movement on exploited ports</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <network>opt1</network>
+      </source>
+      <destination>
+        <any>1</any>
+        <port>Exploited_Ports</port>
+      </destination>
+      <updated>
+        <username>root@192.168.0.117</username>
+        <time>1768886021.58</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.117</username>
+        <time>1768886021.58</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="9d60ded1-5f6b-4341-a35c-7bd3108c3571">
+      <type>block</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Block the whole APIPA range</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>169.254.0.0/16</address>
+      </destination>
+      <updated>
+        <username>root@192.168.0.179</username>
+        <time>1768886119.20</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.179</username>
+        <time>1768886119.20</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="a1a18758-bbbf-4325-91e0-c3101aa9709a">
       <type>pass</type>
       <interface>opt1</interface>
@@ -1381,60 +1435,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <created>
         <username>root@192.168.0.179</username>
         <time>1768867043.40</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="a1a8d3cb-8194-4432-80de-d8fda53c6a84">
-      <type>block</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Block malware C2 and lateral movement on exploited ports</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>opt1</network>
-      </source>
-      <destination>
-        <any>1</any>
-        <port>Exploited_Ports</port>
-      </destination>
-      <updated>
-        <username>root@192.168.0.117</username>
-        <time>1768886021.58</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.117</username>
-        <time>1768886021.58</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="9d60ded1-5f6b-4341-a35c-7bd3108c3571">
-      <type>block</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Block the whole APIPA range</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>169.254.0.0/16</address>
-      </destination>
-      <updated>
-        <username>root@192.168.0.179</username>
-        <time>1768886119.20</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.179</username>
-        <time>1768886119.20</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -1573,8 +1573,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1768886119.24</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1768886277.74</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
