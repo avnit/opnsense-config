@@ -451,36 +451,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <destination>
           <any>1</any>
         </destination>
-        <descr>Tailscale ipv4</descr>
-        <category/>
-        <interface>lan</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet</ipprotocol>
-        <created>
-          <username>root@192.168.0.4</username>
-          <time>1767711075.81</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <sourceport/>
-        <protocol>udp</protocol>
-        <updated>
-          <username>root@192.168.0.240</username>
-          <time>1768938037.92</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-      </rule>
-      <rule>
-        <source>
-          <network>any</network>
-        </source>
-        <destination>
-          <any>1</any>
-        </destination>
         <descr>NordVPN Client output</descr>
         <category/>
         <interface>opt4</interface>
@@ -1590,8 +1560,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.240</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1768938377.93</time>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1768938569.75</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
