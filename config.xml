@@ -1468,8 +1468,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.117</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1768879176.17</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1768879275.44</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3937,7 +3937,22 @@ float</custom_options>
     <serial/>
     <caref/>
   </ca>
-  <dhcpd/>
+  <dhcpd>
+    <opt1>
+      <enable>1</enable>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>192.168.1.10</from>
+        <to>192.168.1.254</to>
+      </range>
+      <winsserver/>
+      <dnsserver/>
+      <ntpserver/>
+    </opt1>
+  </dhcpd>
   <dhcpdv6/>
   <cert uuid="4bd0e3ac-9809-471f-bccc-ad878efce0e3">
     <refid>692cbea8c4547</refid>
