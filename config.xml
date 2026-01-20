@@ -1251,16 +1251,17 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <statetype>keep state</statetype>
       <descr>Allow LAN to LAN2 communication</descr>
       <direction>in</direction>
+      <log>1</log>
       <quick>1</quick>
       <source>
         <network>lan</network>
       </source>
       <destination>
-        <network>opt1</network>
+        <any>1</any>
       </destination>
       <updated>
-        <username>root@192.168.0.117</username>
-        <time>1768879749.03</time>
+        <username>root@192.168.0.240</username>
+        <time>1768938172.27</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1268,7 +1269,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <time>1768879749.03</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="51193b00-55bf-4486-ba2b-6be9a544d0cf">
       <type>pass</type>
@@ -1590,8 +1590,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.240</username>
-    <description>/system_advanced_firewall.php made changes</description>
-    <time>1768938100.11</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1768938172.32</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
