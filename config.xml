@@ -476,36 +476,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       </rule>
       <rule>
         <source>
-          <network>opt1</network>
-        </source>
-        <destination>
-          <any>1</any>
-        </destination>
-        <descr>Tailscale ipv4</descr>
-        <category/>
-        <interface>lan</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet</ipprotocol>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <sourceport/>
-        <protocol>udp</protocol>
-        <updated>
-          <username>root@192.168.0.240</username>
-          <time>1768937940.29</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-        <created>
-          <username>root@192.168.0.240</username>
-          <time>1768937940.29</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-      </rule>
-      <rule>
-        <source>
           <network>any</network>
         </source>
         <destination>
@@ -1649,8 +1619,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.240</username>
-    <description>/firewall_nat_out_edit.php made changes</description>
-    <time>1768937940.34</time>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1768937989.68</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
