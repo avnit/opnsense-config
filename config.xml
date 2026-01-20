@@ -1469,7 +1469,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.117</username>
     <description>/services_dhcp.php made changes</description>
-    <time>1768879275.44</time>
+    <time>1768879327.55</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3939,7 +3939,6 @@ float</custom_options>
   </ca>
   <dhcpd>
     <opt1>
-      <enable>1</enable>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
         <item/>
