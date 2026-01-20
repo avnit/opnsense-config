@@ -918,6 +918,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <time>1765209755.33</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <log>1</log>
     </rule>
     <rule uuid="1b64358e-c037-4d22-9ce7-0168e9536cde">
       <type>pass</type>
@@ -1617,7 +1618,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.240</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1768937693.90</time>
+    <time>1768937695.81</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
