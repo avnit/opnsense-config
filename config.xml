@@ -1841,6 +1841,23 @@ ST</content>
             <categories/>
             <description>CrowdSec (IPv4)</description>
           </alias>
+          <alias uuid="9aba65d4-d8f0-4e13-b0e7-b86343f414e0">
+            <enabled>1</enabled>
+            <name>crowdsec6_blocklists</name>
+            <type>external</type>
+            <path_expression/>
+            <proto>IPv6</proto>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content/>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>CrowdSec (IPv6)</description>
+          </alias>
         </aliases>
       </Alias>
       <Category version="1.0.0" persisted_at="1768843943.22" description="Firewall categories">
