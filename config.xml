@@ -1371,7 +1371,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Allow all LAN2 outbound traffic to internet</descr>
-      <gateway>WAN_DHCP</gateway>
       <direction>in</direction>
       <quick>1</quick>
       <source>
@@ -1381,8 +1380,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <any>1</any>
       </destination>
       <updated>
-        <username>root@192.168.0.179</username>
-        <time>1768885891.66</time>
+        <username>root@192.168.0.240</username>
+        <time>1768925480.96</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1551,8 +1550,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.240</username>
-    <description>/api/mdnsrepeater/settings/set made changes</description>
-    <time>1768925310.44</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1768925481.01</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
