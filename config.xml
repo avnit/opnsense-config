@@ -1559,9 +1559,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1768948472.66</time>
+    <username>root@192.168.0.240</username>
+    <description>/api/crowdsec/general/set made changes</description>
+    <time>1768948638.22</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3957,7 +3957,7 @@ ST</content>
     </redis>
     <radvd version="1.0.0" persisted_at="1768624377.64" description="Radvd configuration"/>
     <crowdsec>
-      <general version="1.0.12" persisted_at="1768948457.83" description="CrowdSec general configuration">
+      <general version="1.0.12" persisted_at="1768948638.22" description="CrowdSec general configuration">
         <agent_enabled>1</agent_enabled>
         <lapi_enabled>1</lapi_enabled>
         <firewall_bouncer_enabled>1</firewall_bouncer_enabled>
@@ -3967,7 +3967,7 @@ ST</content>
         <rules_enabled>1</rules_enabled>
         <rules_log>0</rules_log>
         <rules_tag/>
-        <enroll_key/>
+        <enroll_key>cmcrb46280003jr02n1xkn3kx</enroll_key>
         <crowdsec_firewall_verbose>0</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
