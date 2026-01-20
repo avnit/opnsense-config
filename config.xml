@@ -91,8 +91,8 @@
     <timezone>America/Los_Angeles</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
     <webgui>
-      <protocol>http</protocol>
-      <ssl-certref>696ee9b096a9e</ssl-certref>
+      <protocol>https</protocol>
+      <ssl-certref>6934efab63dea</ssl-certref>
       <port/>
       <compression/>
       <httpaccesslog>1</httpaccesslog>
@@ -101,6 +101,8 @@
       <disablehttpredirect>1</disablehttpredirect>
       <quietlogin>1</quietlogin>
       <nodnsrebindcheck>1</nodnsrebindcheck>
+      <ssl-ciphers/>
+      <interfaces/>
     </webgui>
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
@@ -171,8 +173,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     </backup>
     <autologout>32000</autologout>
     <contact_email>abambah@gmail.com</contact_email>
-    <secondaryconsole/>
-    <serialusb/>
     <backupcount>100</backupcount>
     <maximumstates/>
     <maximumfrags/>
@@ -1409,8 +1409,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.156</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1768876639.02</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1768876696.52</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
