@@ -269,7 +269,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <gatewayv6/>
     </opt1>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768918092.61" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768918323.11" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -406,17 +406,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <ra_router_lifetime/>
       <description/>
     </dhcp_ranges>
-    <dhcp_options uuid="98b3efb5-c35b-4876-92be-dbe3143f649c">
-      <type>set</type>
-      <option>6</option>
-      <option6/>
-      <interface>lan</interface>
-      <tag/>
-      <set_tag/>
-      <value>192.168.0.28,192.168.0.216</value>
-      <force>0</force>
-      <description/>
-    </dhcp_options>
     <dhcp_options uuid="d3e42b37-11b1-4d76-82ec-abe3ef62be77">
       <type>set</type>
       <option>6</option>
@@ -1573,8 +1562,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1768918092.61</time>
+    <description>/api/dnsmasq/settings/del_option/98b3efb5-c35b-4876-92be-dbe3143f649c made changes</description>
+    <time>1768918323.11</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
