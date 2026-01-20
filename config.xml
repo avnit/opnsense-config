@@ -210,6 +210,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <adv_dhcp_config_advanced/>
       <adv_dhcp_config_file_override/>
       <adv_dhcp_config_file_override_path/>
+      <ipaddrv6>dhcp6</ipaddrv6>
     </wan>
     <lan>
       <if>re0</if>
@@ -1431,9 +1432,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.179</username>
-    <description>/api/dnsmasq/settings/add_option/ made changes</description>
-    <time>1768867254.72</time>
+    <username>(root)</username>
+    <description>Console assignment of interfaces</description>
+    <time>1768875486.19</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
