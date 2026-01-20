@@ -264,7 +264,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <spoofmac/>
     </opt1>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768628065.51" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768867215.42" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -384,8 +384,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <dhcp_ranges uuid="23c260a7-7967-4312-a606-79d744cdffca">
       <interface>opt1</interface>
       <set_tag/>
-      <start_addr>192.168.68.2</start_addr>
-      <end_addr>192.168.68.254</end_addr>
+      <start_addr>192.168.2.2</start_addr>
+      <end_addr>192.168.2.254</end_addr>
       <subnet_mask/>
       <constructor/>
       <mode/>
@@ -399,7 +399,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <ra_mtu/>
       <ra_interval/>
       <ra_router_lifetime/>
-      <description/>
+      <description>TV and music system</description>
     </dhcp_ranges>
     <dhcp_options uuid="98b3efb5-c35b-4876-92be-dbe3143f649c">
       <type>set</type>
@@ -1421,8 +1421,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1768867043.44</time>
+    <description>/api/dnsmasq/settings/set_range/23c260a7-7967-4312-a606-79d744cdffca made changes</description>
+    <time>1768867215.42</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
