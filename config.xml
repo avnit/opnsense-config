@@ -1559,9 +1559,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.240</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1768938571.99</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1768948457.83</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3922,6 +3922,21 @@ ST</content>
       </slowlog>
     </redis>
     <radvd version="1.0.0" persisted_at="1768624377.64" description="Radvd configuration"/>
+    <crowdsec>
+      <general version="1.0.12" persisted_at="1768948457.83" description="CrowdSec general configuration">
+        <agent_enabled>1</agent_enabled>
+        <lapi_enabled>1</lapi_enabled>
+        <firewall_bouncer_enabled>1</firewall_bouncer_enabled>
+        <lapi_manual_configuration>0</lapi_manual_configuration>
+        <lapi_listen_address>127.0.0.1</lapi_listen_address>
+        <lapi_listen_port>8080</lapi_listen_port>
+        <rules_enabled>1</rules_enabled>
+        <rules_log>0</rules_log>
+        <rules_tag/>
+        <enroll_key/>
+        <crowdsec_firewall_verbose>0</crowdsec_firewall_verbose>
+      </general>
+    </crowdsec>
   </OPNsense>
   <vlans version="1.0.0" persisted_at="1764539975.74">
     <vlan/>
