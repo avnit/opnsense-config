@@ -1601,8 +1601,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.240</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1768929361.22</time>
+    <description>/api/interfaces/bridge_settings/add_item/ made changes</description>
+    <time>1768933117.72</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3979,8 +3979,28 @@ ST</content>
   <laggs version="1.0.0" persisted_at="1764539975.76">
     <lagg/>
   </laggs>
-  <bridges version="1.0.0" persisted_at="1765207371.64" description="Bridge devices">
-    <bridged/>
+  <bridges version="1.0.0" persisted_at="1768933117.72" description="Bridge devices">
+    <bridged uuid="a9a484b2-f971-4017-8489-89ac35d01bf8">
+      <bridgeif>bridge0</bridgeif>
+      <members>lan,opt1</members>
+      <linklocal>1</linklocal>
+      <enablestp>0</enablestp>
+      <proto>rstp</proto>
+      <stp/>
+      <maxage/>
+      <fwdelay/>
+      <holdcnt/>
+      <maxaddr/>
+      <timeout/>
+      <span/>
+      <edge/>
+      <autoedge/>
+      <ptp/>
+      <autoptp/>
+      <static/>
+      <private/>
+      <descr>LAN_AGG</descr>
+    </bridged>
   </bridges>
   <staticroutes version="1.0.0" persisted_at="1768349969.89" description="Static routes">
     <route uuid="341dfcf4-8fb4-42a0-aa04-88e19f8a8a73">
