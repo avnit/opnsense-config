@@ -14,7 +14,7 @@
     </item>
   </sysctl>
   <system>
-    <optimization>conservative</optimization>
+    <optimization>aggressive</optimization>
     <hostname>OPNsense</hostname>
     <domain>asbblog.com</domain>
     <dnsallowoverride>0</dnsallowoverride>
@@ -1590,8 +1590,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.240</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1768938042.15</time>
+    <description>/system_advanced_firewall.php made changes</description>
+    <time>1768938100.11</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
