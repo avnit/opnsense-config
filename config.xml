@@ -269,7 +269,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <gatewayv6/>
     </opt1>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1769008136.80" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1769008180.59" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -425,6 +425,17 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <tag/>
       <set_tag/>
       <value>192.168.0.28,192.168.0.216</value>
+      <force>0</force>
+      <description/>
+    </dhcp_options>
+    <dhcp_options uuid="0823081b-6114-42e8-a889-86c859a52743">
+      <type>set</type>
+      <option>6</option>
+      <option6/>
+      <interface>opt4</interface>
+      <tag/>
+      <set_tag/>
+      <value>103.86.96.103,103.86.99.103</value>
       <force>0</force>
       <description/>
     </dhcp_options>
@@ -1583,7 +1594,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.159</username>
     <description>/api/dnsmasq/settings/add_option/ made changes</description>
-    <time>1769008136.80</time>
+    <time>1769008180.59</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
