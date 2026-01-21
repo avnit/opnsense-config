@@ -1559,9 +1559,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.240</username>
-    <description>/api/crowdsec/general/set made changes</description>
-    <time>1768948715.79</time>
+    <username>root@192.168.0.159</username>
+    <description>/api/diagnostics/netflow/setconfig made changes</description>
+    <time>1768954378.00</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -1880,9 +1880,9 @@ ST</content>
         </categories>
       </Category>
     </Firewall>
-    <Netflow version="1.0.1" persisted_at="1765513099.33" description="NetFlow configuration">
+    <Netflow version="1.0.1" persisted_at="1768954378.00" description="NetFlow configuration">
       <capture>
-        <interfaces>lan,opt4,opt3,wan</interfaces>
+        <interfaces>lan,opt1,opt4,wan</interfaces>
         <egress_only>opt4,wan</egress_only>
         <version>v9</version>
         <targets>127.0.0.1:2056,192.168.0.229:2056</targets>
