@@ -1560,8 +1560,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>Modified UPnP IGD &amp; PCP settings</description>
-    <time>1768954549.15</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1768959226.25</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2277,7 +2277,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1768886779.00" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768959226.25" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -2302,7 +2302,7 @@ ST</content>
       <advanced>
         <hideidentity>1</hideidentity>
         <hideversion>1</hideversion>
-        <prefetch>0</prefetch>
+        <prefetch>1</prefetch>
         <prefetchkey>1</prefetchkey>
         <dnssecstripped>0</dnssecstripped>
         <aggressivensec>1</aggressivensec>
