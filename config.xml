@@ -1559,9 +1559,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1768961500.02</time>
+    <username>root@192.168.0.159</username>
+    <description>/vpn_openvpn_client.php made changes</description>
+    <time>1769005666.88</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -4015,8 +4015,8 @@ ST</content>
       <auth_pass>eWbnWH2PnyXwBKNRBGbh1btr</auth_pass>
       <protocol>UDP4</protocol>
       <dev_mode>tun</dev_mode>
-      <server_addr>us9677.nordvpn.com</server_addr>
-      <server_port>1194</server_port>
+      <server_addr>us11817.nordvpn.com,185.211.32.144,195.179.201.20,us9688.nordvpn.com</server_addr>
+      <server_port>1194,1194,1194,1194</server_port>
       <resolve_retry>yes</resolve_retry>
       <proxy_authtype>none</proxy_authtype>
       <description>NordVPN_US8561</description>
