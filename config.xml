@@ -1560,8 +1560,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>/api/diagnostics/netflow/setconfig made changes</description>
-    <time>1768954378.00</time>
+    <description>Modified UPnP IGD &amp; PCP settings</description>
+    <time>1768954541.19</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -4142,8 +4142,8 @@ float</custom_options>
         <stun_port/>
         <friendly_name/>
         <upnp_igd_compat>igdv1</upnp_igd_compat>
-        <permuser1>allow 22 192.168.0.4 22</permuser1>
-        <permuser2>allow 1024-65535 192.168.0.159 1024-65535</permuser2>
+        <permuser1>allow 1024-65535 192.168.0.0/22 1024-65535</permuser1>
+        <permuser2/>
         <permuser3/>
         <permuser4/>
         <permuser5/>
