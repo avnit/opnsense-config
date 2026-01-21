@@ -139,8 +139,8 @@
       <subscription/>
       <reboot>0</reboot>
     </firmware>
-    <dnsserver>1.1.1.1</dnsserver>
-    <dnsserver>8.8.8.8</dnsserver>
+    <dnsserver>192.168.0.28</dnsserver>
+    <dnsserver>192.168.0.102</dnsserver>
     <language>en_US</language>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
@@ -1593,8 +1593,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1769008191.88</time>
+    <description>/system_general.php made changes</description>
+    <time>1769008333.10</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
