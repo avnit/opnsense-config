@@ -82,7 +82,8 @@
       <landing_page/>
       <comment/>
       <email>home@asbblog.com</email>
-      <apikeys>2pJdpFWjGq/UkeNvlb1zuL1NCBWMtQ4vEoUbBldcDS4hPQ4Twztz+gjRXaRYjhV4S8IsHp4AgqhL/0SV|$6$$AZIdePEeo.YQh0nvgm/9GLmLAY0q96WxV84Jy2JdlitC8eb/Bt9tpGw40Bt7U0lv3nGdrXe3hSU8RNBV4UVr41</apikeys>
+      <apikeys>2pJdpFWjGq/UkeNvlb1zuL1NCBWMtQ4vEoUbBldcDS4hPQ4Twztz+gjRXaRYjhV4S8IsHp4AgqhL/0SV|$6$$AZIdePEeo.YQh0nvgm/9GLmLAY0q96WxV84Jy2JdlitC8eb/Bt9tpGw40Bt7U0lv3nGdrXe3hSU8RNBV4UVr41
+iaTKaK8SM4XChzl7Z1ITIFXpuooINLYx7fyhCbyFkp1KXp2s9h8/uHqIRANXDiTPTcmurDImQ+fbSYTe|$6$$eQkmKIrq3rNaEBLJ5mgKk7baFH54k6Y9hZi3ZyI/dZhQxMlSBpjuoujXzQMHCdR4DJUGo5BD1ODqRg2X7DRuT/</apikeys>
       <priv>page-all,page-diagnostics-arptable,page-diagnostics-networkinsight</priv>
       <language>en_US</language>
       <descr>home assistance</descr>
@@ -1593,8 +1594,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.179</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1769104989.27</time>
+    <description>/api/auth/user/add_api_key/homeassistance made changes</description>
+    <time>1769114551.49</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
