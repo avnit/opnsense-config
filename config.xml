@@ -264,10 +264,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <spoofmac/>
       <ipaddr>192.168.1.1</ipaddr>
       <subnet>24</subnet>
-      <gateway/>
-      <ipaddrv6/>
-      <subnetv6/>
-      <gatewayv6/>
     </opt1>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1769104939.77" description="Dnsmasq DNS and DHCP">
@@ -1593,9 +1589,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.4</username>
-    <description>/api/auth/user/del_api_key/UHdWTS9IQUxhazZyalZ2dHBsdnlmYzRCa3hjcXZtN2NPbWpvMGhTcW90OVZGL05ZSCtRV21wbFlBTWpSaGI5eVJyM3Yra2ZXL3cvSnoyRFM= made changes</description>
-    <time>1769114913.70</time>
+    <username>root@192.168.0.183</username>
+    <description>/interfaces.php made changes</description>
+    <time>1769198805.89</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -4020,7 +4016,9 @@ ST</content>
   <laggs version="1.0.0" persisted_at="1764539975.76">
     <lagg/>
   </laggs>
-  <bridges version="1.0.0" persisted_at="1768933298.17" description="Bridge devices"/>
+  <bridges version="1.0.0" persisted_at="1768933298.17" description="Bridge devices">
+    <bridged/>
+  </bridges>
   <staticroutes version="1.0.0" persisted_at="1768349969.89" description="Static routes">
     <route uuid="341dfcf4-8fb4-42a0-aa04-88e19f8a8a73">
       <network>100.64.0.0/10</network>
