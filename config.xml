@@ -266,7 +266,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <subnet>24</subnet>
     </opt1>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1769335801.30" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1769336088.06" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -410,7 +410,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <interface>lan</interface>
       <tag/>
       <set_tag/>
-      <value>1.1.1.2</value>
+      <value>1.1.1.1</value>
       <force>0</force>
       <description/>
     </dhcp_options>
@@ -1590,8 +1590,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.37</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1769335886.93</time>
+    <description>/api/dnsmasq/settings/set_option/27bb50c0-29b3-4127-842f-46aabcde2306 made changes</description>
+    <time>1769336088.06</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
