@@ -140,8 +140,7 @@ iaTKaK8SM4XChzl7Z1ITIFXpuooINLYx7fyhCbyFkp1KXp2s9h8/uHqIRANXDiTPTcmurDImQ+fbSYTe
       <subscription/>
       <reboot>0</reboot>
     </firmware>
-    <dnsserver>1.1.1.1</dnsserver>
-    <dnsserver>8.8.8.8</dnsserver>
+    <dnsserver/>
     <language>en_US</language>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
@@ -1590,8 +1589,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.44</username>
-    <description>/api/unbound/settings/delForward/a5493dec-db88-4fa9-ad04-2ed28938233d made changes</description>
-    <time>1769336592.51</time>
+    <description>/system_general.php made changes</description>
+    <time>1769336622.09</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
