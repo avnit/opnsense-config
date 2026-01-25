@@ -1590,8 +1590,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.44</username>
-    <description>/api/unbound/settings/toggleDot/b029eb1f-2577-4dc4-afc9-649ac1182ecc made changes</description>
-    <time>1769336562.26</time>
+    <description>/api/unbound/settings/toggleDot/db1c6d70-877a-4a06-a933-5fe05a1396aa made changes</description>
+    <time>1769336563.19</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2306,7 +2306,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1769336562.26" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769336563.19" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -2472,7 +2472,7 @@ ST</content>
           <description>dns over tls ipv6 passive</description>
         </dot>
         <dot uuid="db1c6d70-877a-4a06-a933-5fe05a1396aa">
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <type>dot</type>
           <domain/>
           <server>2001:4860:4860::8888</server>
