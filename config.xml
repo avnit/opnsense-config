@@ -256,13 +256,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <virtual>1</virtual>
       <networks/>
     </openvpn>
-    <opt1>
-      <if>ue0</if>
-      <descr>LAN2</descr>
-      <spoofmac/>
-      <ipaddr>192.168.1.1</ipaddr>
-      <subnet>24</subnet>
-    </opt1>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1769403895.23" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
@@ -1268,164 +1261,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       </created>
       <log>1</log>
     </rule>
-    <rule uuid="a1a8d3cb-8194-4432-80de-d8fda53c6a84">
-      <type>block</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Block malware C2 and lateral movement on exploited ports</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>opt1</network>
-      </source>
-      <destination>
-        <any>1</any>
-        <port>Exploited_Ports</port>
-      </destination>
-      <updated>
-        <username>root@192.168.0.117</username>
-        <time>1768886021.58</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.117</username>
-        <time>1768886021.58</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="9d60ded1-5f6b-4341-a35c-7bd3108c3571">
-      <type>block</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Block the whole APIPA range</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>169.254.0.0/16</address>
-      </destination>
-      <updated>
-        <username>root@192.168.0.179</username>
-        <time>1768886119.20</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.179</username>
-        <time>1768886119.20</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="7702000d-91df-4981-9f6f-f2131955013a">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow LAN to OPNsense IGMP</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <protocol>igmp</protocol>
-      <source>
-        <address>lan,lanip,opt1,opt1ip</address>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.240</username>
-        <time>1768929361.17</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.240</username>
-        <time>1768928766.16</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="a1a18758-bbbf-4325-91e0-c3101aa9709a">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>sloppy state</statetype>
-      <descr>Allow LAN2 to LAN communication</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <source>
-        <address>lanip,opt1ip</address>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.240</username>
-        <time>1768925625.10</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.117</username>
-        <time>1768879939.23</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="083a9f8c-7b31-4d9d-942b-c06d428eece7">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow all LAN2 outbound traffic to internet</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.240</username>
-        <time>1768925480.96</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.179</username>
-        <time>1768867031.59</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
-    <rule uuid="3aaa438c-dcbd-4283-b797-7b983ce4de9b">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>out</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.240</username>
-        <time>1768925961.49</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.179</username>
-        <time>1768867043.40</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
     <rule uuid="ef959161-f033-451b-9bbc-652d136d57f3">
       <type>pass</type>
       <interface>opt3</interface>
@@ -1562,9 +1397,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/delForward/e36cffe2-675b-4657-b0c7-d7ceebc9a45c made changes</description>
-    <time>1769404134.51</time>
+    <username>root@192.168.0.240</username>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1769434943.24</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -4034,19 +3869,6 @@ float</custom_options>
     <caref/>
   </ca>
   <dhcpd>
-    <opt1>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>192.168.1.10</from>
-        <to>192.168.1.254</to>
-      </range>
-      <winsserver/>
-      <dnsserver/>
-      <ntpserver/>
-    </opt1>
     <lan>
       <gateway>192.168.0.1</gateway>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
