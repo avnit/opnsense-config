@@ -1563,8 +1563,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/setDnsbl/e89c5423-c0ec-4aac-8d85-c065feb09102 made changes</description>
-    <time>1769404121.18</time>
+    <description>/api/unbound/settings/delForward/e36cffe2-675b-4657-b0c7-d7ceebc9a45c made changes</description>
+    <time>1769404134.51</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2280,7 +2280,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1769404121.18" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769404134.51" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2451,17 +2451,6 @@ ST</content>
           <forward_tcp_upstream>0</forward_tcp_upstream>
           <forward_first>1</forward_first>
           <description>dns over tls 1.0.0.1 backup</description>
-        </dot>
-        <dot uuid="e36cffe2-675b-4657-b0c7-d7ceebc9a45c">
-          <enabled>0</enabled>
-          <type>forward</type>
-          <domain/>
-          <server>127.0.0.1</server>
-          <port>1053</port>
-          <verify/>
-          <forward_tcp_upstream>0</forward_tcp_upstream>
-          <forward_first>0</forward_first>
-          <description>dns to pihole</description>
         </dot>
       </dots>
       <hosts/>
