@@ -1563,8 +1563,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1769402605.75</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1769402759.92</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2280,7 +2280,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1769402584.35" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769402759.92" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
