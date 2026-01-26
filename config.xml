@@ -1596,8 +1596,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1769389307.35</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1769389391.92</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2313,7 +2313,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1769389187.62" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769389391.92" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2323,9 +2323,9 @@ ST</content>
         <dns64>0</dns64>
         <dns64prefix/>
         <noarecords>0</noarecords>
-        <regdhcp>1</regdhcp>
+        <regdhcp>0</regdhcp>
         <regdhcpdomain/>
-        <regdhcpstatic>1</regdhcpstatic>
+        <regdhcpstatic>0</regdhcpstatic>
         <noreglladdr6>0</noreglladdr6>
         <noregrecords>0</noregrecords>
         <txtsupport>0</txtsupport>
