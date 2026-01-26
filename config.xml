@@ -1596,8 +1596,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/delForward/5cd88a88-3618-4a6e-ae9a-31df4524cf8d made changes</description>
-    <time>1769388615.55</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1769388677.52</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2313,13 +2313,13 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1769388615.55" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769388677.52" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
         <stats>1</stats>
-        <active_interface/>
-        <dnssec>1</dnssec>
+        <active_interface>lan,opt1,opt4,opt3</active_interface>
+        <dnssec>0</dnssec>
         <dns64>0</dns64>
         <dns64prefix/>
         <noarecords>0</noarecords>
