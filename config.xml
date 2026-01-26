@@ -1596,8 +1596,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/delDnsbl/6b95e774-ee7b-4489-b749-e472b2b36375 made changes</description>
-    <time>1769388580.61</time>
+    <description>/api/unbound/settings/delDnsbl/b2f79605-9066-47f9-bff3-c586b8aa8f2b made changes</description>
+    <time>1769388580.63</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2313,7 +2313,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1769388580.61" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769388580.63" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -2379,19 +2379,6 @@ ST</content>
         <default_action>allow</default_action>
       </acls>
       <dnsbl>
-        <blocklist uuid="b2f79605-9066-47f9-bff3-c586b8aa8f2b">
-          <enabled>0</enabled>
-          <type/>
-          <lists/>
-          <allowlists/>
-          <blocklists>https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt</blocklists>
-          <wildcards/>
-          <source_nets/>
-          <address/>
-          <nxdomain>0</nxdomain>
-          <cache_ttl>72000</cache_ttl>
-          <description>ransomware</description>
-        </blocklist>
         <blocklist uuid="43333b39-e3a3-403a-9e6d-c5d62500cffc">
           <enabled>0</enabled>
           <type/>
