@@ -1596,8 +1596,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1769388092.04</time>
+    <description>/api/unbound/settings/toggleDnsbl/6b95e774-ee7b-4489-b749-e472b2b36375 made changes</description>
+    <time>1769388347.84</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2313,7 +2313,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1769388092.04" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769388347.84" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -2380,7 +2380,7 @@ ST</content>
       </acls>
       <dnsbl>
         <blocklist uuid="6b95e774-ee7b-4489-b749-e472b2b36375">
-          <enabled>1</enabled>
+          <enabled>0</enabled>
           <type>ag,bla0,bla,blc,bld,blf,blg,blm,blp,blr,blr0,bls,ep,hgz001,hgz009,hgz010,hgz011,hgz019,oisd0,sb,yy</type>
           <lists/>
           <allowlists/>
