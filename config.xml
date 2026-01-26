@@ -1115,6 +1115,31 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       </created>
       <log>1</log>
     </rule>
+    <rule uuid="368c3c9c-a59e-4a3c-898a-e85d7c4a9a32">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <source>
+        <address>privateRanges,lan</address>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.0.4</username>
+        <time>1769396125.23</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.161</username>
+        <time>1764721366.83</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="0c2622a6-45d3-4cb0-aa93-a4e6d7b23ecb">
       <type>pass</type>
       <interface>lan</interface>
@@ -1191,31 +1216,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
       <log>1</log>
-    </rule>
-    <rule uuid="368c3c9c-a59e-4a3c-898a-e85d7c4a9a32">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <source>
-        <address>privateRanges,lan</address>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.4</username>
-        <time>1769396125.23</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.161</username>
-        <time>1764721366.83</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
     </rule>
     <rule uuid="3770c90e-8e5c-4bb0-8b6d-b3ad45177203">
       <type>pass</type>
@@ -1563,8 +1563,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1769396125.28</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1769396136.56</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
