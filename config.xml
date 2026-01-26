@@ -259,7 +259,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <opt1>
       <if>ue0</if>
       <descr>LAN2</descr>
-      <enable>1</enable>
       <spoofmac/>
       <ipaddr>192.168.1.1</ipaddr>
       <subnet>24</subnet>
@@ -1589,8 +1588,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/firewall/alias/set_item/694f9448-60c3-424c-8ab2-4e3f5d0e8ab6 made changes</description>
-    <time>1769386204.88</time>
+    <description>Interface LAN2(opt1) is now disabled.</description>
+    <time>1769386280.19</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
