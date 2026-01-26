@@ -1596,8 +1596,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/toggleDot/db7a07b1-65e6-4b99-97a3-4a74823a5257 made changes</description>
-    <time>1769388389.99</time>
+    <description>/api/unbound/settings/delDnsbl/6b95e774-ee7b-4489-b749-e472b2b36375 made changes</description>
+    <time>1769388580.61</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2313,7 +2313,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1769388389.99" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769388580.61" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -2379,19 +2379,6 @@ ST</content>
         <default_action>allow</default_action>
       </acls>
       <dnsbl>
-        <blocklist uuid="6b95e774-ee7b-4489-b749-e472b2b36375">
-          <enabled>0</enabled>
-          <type>ag,bla0,bla,blc,bld,blf,blg,blm,blp,blr,blr0,bls,ep,hgz001,hgz009,hgz010,hgz011,hgz019,oisd0,sb,yy</type>
-          <lists/>
-          <allowlists/>
-          <blocklists/>
-          <wildcards/>
-          <source_nets/>
-          <address/>
-          <nxdomain>0</nxdomain>
-          <cache_ttl>72000</cache_ttl>
-          <description>Ad guard</description>
-        </blocklist>
         <blocklist uuid="b2f79605-9066-47f9-bff3-c586b8aa8f2b">
           <enabled>0</enabled>
           <type/>
