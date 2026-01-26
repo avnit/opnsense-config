@@ -238,6 +238,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <opt3>
       <if>tailscale0</if>
       <descr>tailscale</descr>
+      <enable>1</enable>
       <spoofmac/>
       <blockbogons>1</blockbogons>
     </opt3>
@@ -1398,8 +1399,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.240</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1769434945.42</time>
+    <description>/interfaces.php made changes</description>
+    <time>1769435171.30</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
