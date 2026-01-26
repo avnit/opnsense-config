@@ -1596,8 +1596,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1769389728.11</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1769389754.56</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -4092,7 +4092,6 @@ float</custom_options>
       <ntpserver/>
     </opt1>
     <lan>
-      <enable>1</enable>
       <gateway>192.168.0.1</gateway>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
