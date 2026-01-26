@@ -264,8 +264,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <subnet>24</subnet>
     </opt1>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1769387083.41" description="Dnsmasq DNS and DHCP">
-    <enable>1</enable>
+  <dnsmasq version="1.0.8" persisted_at="1769388934.14" description="Dnsmasq DNS and DHCP">
+    <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
     <dhcpfirst>0</dhcpfirst>
@@ -1596,8 +1596,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/unbound/settings/addDnsbl/ made changes</description>
-    <time>1769388769.75</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1769388934.14</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
