@@ -1219,32 +1219,6 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       </created>
       <log>1</log>
     </rule>
-    <rule uuid="67fd04a8-a547-441b-9c0d-18d913d1c850">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow LAN to LAN2 communication</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.240</username>
-        <time>1768938172.27</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.117</username>
-        <time>1768879749.03</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="51193b00-55bf-4486-ba2b-6be9a544d0cf">
       <type>pass</type>
       <interface>openvpn</interface>
@@ -1564,9 +1538,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.4</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1769390195.74</time>
+    <username>root@192.168.0.67</username>
+    <description>/firewall_rules.php made changes</description>
+    <time>1769393870.27</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
