@@ -1199,16 +1199,16 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <statetype>keep state</statetype>
       <direction>in</direction>
       <log>1</log>
-      <quick>0</quick>
+      <quick>1</quick>
       <source>
-        <address>privateRanges,lan,opt3ip</address>
+        <address>privateRanges,lan</address>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
-        <username>root@192.168.0.159</username>
-        <time>1768336153.67</time>
+        <username>root@192.168.0.4</username>
+        <time>1769396125.23</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1563,8 +1563,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769396059.58</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769396125.28</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
