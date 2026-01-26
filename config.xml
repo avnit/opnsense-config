@@ -1564,7 +1564,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.4</username>
     <description>/api/unbound/settings/set made changes</description>
-    <time>1769402497.25</time>
+    <time>1769402503.20</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -2280,7 +2280,7 @@ ST</content>
       <zones/>
       <templates/>
     </captiveportal>
-    <unboundplus version="1.0.13" persisted_at="1769402497.25" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769402503.20" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2290,9 +2290,9 @@ ST</content>
         <dns64>0</dns64>
         <dns64prefix/>
         <noarecords>0</noarecords>
-        <regdhcp>0</regdhcp>
+        <regdhcp>1</regdhcp>
         <regdhcpdomain/>
-        <regdhcpstatic>0</regdhcpstatic>
+        <regdhcpstatic>1</regdhcpstatic>
         <noreglladdr6>0</noreglladdr6>
         <noregrecords>0</noregrecords>
         <txtsupport>0</txtsupport>
