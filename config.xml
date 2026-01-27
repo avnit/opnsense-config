@@ -140,7 +140,7 @@ iaTKaK8SM4XChzl7Z1ITIFXpuooINLYx7fyhCbyFkp1KXp2s9h8/uHqIRANXDiTPTcmurDImQ+fbSYTe
       <subscription/>
       <reboot>0</reboot>
     </firmware>
-    <dnsserver>192.168.0.28</dnsserver>
+    <dnsserver>1.1.1.1</dnsserver>
     <language>en_US</language>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
@@ -1398,9 +1398,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.240</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1769435247.11</time>
+    <username>root@192.168.0.4</username>
+    <description>/system_general.php made changes</description>
+    <time>1769543050.86</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
