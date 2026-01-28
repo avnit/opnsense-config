@@ -258,7 +258,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1769403895.23" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1769635803.99" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>1</regdhcp>
     <regdhcpstatic>1</regdhcpstatic>
@@ -348,6 +348,21 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <cnames/>
       <client_id/>
       <hwaddr>d8:43:ae:f6:74:95</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="fdfffcc8-a132-4afc-a741-497b000b6c6c">
+      <host>pve2</host>
+      <domain>asbblog.com</domain>
+      <local>0</local>
+      <ip>192.168.0.156</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>24:6e:96:35:23:5a</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -1398,9 +1413,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.240</username>
-    <description>/api/mdnsrepeater/settings/set made changes</description>
-    <time>1769561046.06</time>
+    <username>root@192.168.0.4</username>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1769635803.99</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
