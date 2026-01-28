@@ -1398,9 +1398,9 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
     <logsys>on</logsys>
   </ntpd>
   <revision>
-    <username>root@192.168.0.4</username>
-    <description>/system_general.php made changes</description>
-    <time>1769543050.86</time>
+    <username>root@192.168.0.240</username>
+    <description>/api/mdnsrepeater/settings/set made changes</description>
+    <time>1769561046.06</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3614,10 +3614,10 @@ ST</content>
         <webcategoriesType/>
       </rules>
     </Zenarmor>
-    <MDNSRepeater version="1.0.1" persisted_at="1769336150.58" description="mdns-repeater settings">
+    <MDNSRepeater version="1.0.1" persisted_at="1769561046.06" description="mdns-repeater settings">
       <enabled>1</enabled>
       <enablecarp>0</enablecarp>
-      <interfaces>lan,opt1</interfaces>
+      <interfaces>lan,opt4,opt3</interfaces>
       <blocklist/>
     </MDNSRepeater>
     <adguardhome>
