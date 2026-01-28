@@ -1415,7 +1415,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   <revision>
     <username>root@192.168.0.4</username>
     <description>/api/tftp/general/set made changes</description>
-    <time>1769635883.19</time>
+    <time>1769635894.16</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
@@ -3411,8 +3411,8 @@ ST</content>
       </maintenance>
     </HAProxy>
     <tftp>
-      <general version="0.0.1" persisted_at="1769635883.19" description="TFTP configuration">
-        <enabled>1</enabled>
+      <general version="0.0.1" persisted_at="1769635894.16" description="TFTP configuration">
+        <enabled>0</enabled>
         <listen>192.168.0.38</listen>
       </general>
     </tftp>
