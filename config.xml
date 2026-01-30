@@ -258,7 +258,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1769635825.64" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1769738371.77" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>1</regdhcp>
     <regdhcpstatic>1</regdhcpstatic>
@@ -363,6 +363,21 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <cnames/>
       <client_id/>
       <hwaddr>24:6e:96:35:23:5a</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="4a914c75-9914-4d42-b4ca-e3b45554e17d">
+      <host>mediastack</host>
+      <domain>mediastack.local</domain>
+      <local>0</local>
+      <ip>192.168.0.118</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:2e:38:b1</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -1414,8 +1429,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/tftp/general/set made changes</description>
-    <time>1769635894.16</time>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1769738371.77</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
