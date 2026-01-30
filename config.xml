@@ -258,7 +258,7 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <networks/>
     </openvpn>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1769738421.93" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1769738469.50" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>1</regdhcp>
     <regdhcpstatic>1</regdhcpstatic>
@@ -397,6 +397,21 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
       <ignore>0</ignore>
       <set_tag/>
       <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="e671d921-460d-4cc5-8305-348d5b7eed8f">
+      <host>pve4</host>
+      <domain>pve4.local</domain>
+      <local>0</local>
+      <ip>192.168.0.88</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>2c:cf:67:01:fa:99</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr>pve4 on raspberry pi</descr>
       <comments/>
       <aliases/>
     </hosts>
@@ -1444,8 +1459,8 @@ AAAEB+q1lDeIg1d6piahpjJagrkSDrjDk/Z7R+4yKCizgMUKn2RRLQ9fwSWZNMIpt5kc4n&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.4</username>
-    <description>/api/dnsmasq/settings/set_host/fdfffcc8-a132-4afc-a741-497b000b6c6c made changes</description>
-    <time>1769738421.93</time>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1769738469.50</time>
   </revision>
   <OPNsense>
     <Gateways version="1.0.0" persisted_at="1767298016.47" description="Gateways configuration">
